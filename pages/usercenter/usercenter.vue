@@ -1,6 +1,6 @@
 <template>
 	<view class="center">
-		<view class="logo" @click="goLogin" :hover-class="!login ? 'logo-hover' : ''">
+		<view class="logo" @click="goLogin" :hover-class="!login ? 'logo-hover' : ''" style="background-color: rgb(0, 122, 255); color: rgb(255, 255, 255);">
 			<image class="logo-img" :src="login ? uerInfo.avatarUrl :avatarUrl"></image>
 			<view class="logo-title" @click="goLogin()">
 				<text class="uer-name">Hi，{{login ? uerInfo.name : '您未登录'}}</text>
@@ -54,7 +54,7 @@
 			goLogin() {
 				if (!this.login) {
 					uni.navigateTo({
-						url: '/pages/login/login'
+						url: '/pages/user/login/login'
 					})
 				}
 			}

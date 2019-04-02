@@ -11,17 +11,17 @@
 					 <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
 					    <swiper-item>
 					        <view class="swiper-item">
-								<image src="../../static/1234.jpg" style="width: 100%;"></image>
+								<cover-image src="../../static/1234.jpg"></cover-image>
 							</view>
 					    </swiper-item>
 					    <swiper-item>
 					        <view class="swiper-item">
-								<image src="../../static/test.jpg" style="width: 100%;"></image>
+								<cover-image src="../../static/test.jpg"></cover-image>
 							</view>
 					    </swiper-item>
 					    <swiper-item>
 					        <view class="swiper-item">
-								<image src="../../static/test.jpg" style="width: 100%;"></image>
+								<cover-image src="../../static/1234.jpg"></cover-image>
 							</view>
 					    </swiper-item>
 					</swiper>
@@ -40,6 +40,7 @@
 <script>
 	import uniMediaList from '@/components/uni-media-list/uni-media-list.vue';
 	import uniLoadMore from '@/components/uni-load-more/uni-load-more.vue';
+	import "../../common/uni/uni.css";
 
 	import {
 		friendlyDate
