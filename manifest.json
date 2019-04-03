@@ -52,5 +52,13 @@
         "setting" : {
             "urlCheck" : false
         }
+    },
+    "h5" : {
+        "devServer" : {
+            "https" : false
+        },
+        "router" : {
+            "base" : ""
+        }
     }
 }

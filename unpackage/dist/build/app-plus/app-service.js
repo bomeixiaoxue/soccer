@@ -1085,12 +1085,12 @@ __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 Z([3,'18354f18-default-18354f18-0'])
 Z([3,'18354f18-backText-18354f18-0'])
 Z([3,'18354f18-content-18354f18-0'])
-Z([3,'17992481-default-17992481-0'])
-Z([3,'17992481-backText-17992481-0'])
-Z([3,'17992481-content-17992481-0'])
 Z([3,'2e418ddd-default-2e418ddd-0'])
 Z([3,'2e418ddd-backText-2e418ddd-0'])
 Z([3,'2e418ddd-content-2e418ddd-0'])
+Z([3,'17992481-default-17992481-0'])
+Z([3,'17992481-backText-17992481-0'])
+Z([3,'17992481-content-17992481-0'])
 Z([3,'52a6c46f-default-52a6c46f-2'])
 Z([3,'handleProxy'])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'52a6c46f-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
@@ -1136,47 +1136,6 @@ Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$roo
 Z([3,'6003e60a'])
 Z([[2,'!'],[[7],[3,'status']]])
 Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'52a6c46f-5']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'52a6c46f-default-52a6c46f-5']]])
-Z(z[51])
-Z([3,'3af873db-default-3af873db-5'])
-Z([3,'_view 3af873db modify'])
-Z(z[10])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z(z[12])
-Z([1,'3af873db-0'])
-Z(z[14])
-Z(z[15])
-Z(z[16])
-Z(z[17])
-Z(z[18])
-Z(z[10])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z(z[12])
-Z([1,'3af873db-2'])
-Z(z[14])
-Z(z[24])
-Z(z[25])
-Z(z[17])
-Z(z[27])
-Z(z[10])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-3']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z(z[12])
-Z([1,'3af873db-3'])
-Z(z[14])
-Z(z[34])
-Z([3,'请输入新密码'])
-Z(z[45])
-Z([[6],[[7],[3,'mobile']],[3,'passwordOne']])
-Z(z[10])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-4']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z(z[12])
-Z([1,'3af873db-4'])
-Z(z[14])
-Z(z[34])
-Z([3,'请再次确认新密码'])
-Z(z[45])
-Z([[6],[[7],[3,'mobile']],[3,'passwordTwo']])
-Z([3,'3af873db-default-3af873db-6'])
-Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-5']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'3af873db-default-3af873db-5']]])
 Z(z[51])
 Z([3,'1f472abb-default-1f472abb-2'])
 Z(z[10])
@@ -1224,6 +1183,47 @@ Z(z[51])
 Z(z[52])
 Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'1f472abb-5']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'1f472abb-default-1f472abb-5']]])
 Z(z[51])
+Z([3,'3af873db-default-3af873db-5'])
+Z([3,'_view 3af873db modify'])
+Z(z[10])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z(z[12])
+Z([1,'3af873db-0'])
+Z(z[14])
+Z(z[15])
+Z(z[16])
+Z(z[17])
+Z(z[18])
+Z(z[10])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z(z[12])
+Z([1,'3af873db-2'])
+Z(z[14])
+Z(z[24])
+Z(z[25])
+Z(z[17])
+Z(z[27])
+Z(z[10])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-3']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z(z[12])
+Z([1,'3af873db-3'])
+Z(z[14])
+Z(z[34])
+Z([3,'请输入新密码'])
+Z(z[45])
+Z([[6],[[7],[3,'mobile']],[3,'passwordOne']])
+Z(z[10])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-4']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z(z[12])
+Z([1,'3af873db-4'])
+Z(z[14])
+Z(z[34])
+Z([3,'请再次确认新密码'])
+Z(z[45])
+Z([[6],[[7],[3,'mobile']],[3,'passwordTwo']])
+Z([3,'3af873db-default-3af873db-6'])
+Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'3af873db-5']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'3af873db-default-3af873db-5']]])
+Z(z[51])
 Z([3,'14689bbb-default-14689bbb-5'])
 Z([3,'_view 14689bbb forgot'])
 Z(z[10])
@@ -1250,18 +1250,18 @@ Z(z[12])
 Z([1,'14689bbb-3'])
 Z(z[14])
 Z(z[34])
-Z(z[81])
+Z(z[127])
 Z(z[45])
-Z(z[83])
+Z(z[129])
 Z(z[10])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'14689bbb-4']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z(z[12])
 Z([1,'14689bbb-4'])
 Z(z[14])
 Z(z[34])
-Z(z[90])
+Z(z[136])
 Z(z[45])
-Z(z[92])
+Z(z[138])
 Z([3,'14689bbb-default-14689bbb-6'])
 Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'14689bbb-5']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'14689bbb-default-14689bbb-5']]])
 Z(z[51])
@@ -1547,6 +1547,13 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
 __WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'149eea06'])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'chatData']])
+Z([3,'_view 149eea06'])
+Z([a,[3,' '],[[4],[[5],[[2,'+'],[[2,'+'],[1,'bottom:'],[[2,'+'],[[2,'+'],[[7],[3,'InputBottom']],[1,100]],[1,'px']]],[1,';']]]]])
+Z([[2,'=='],[[6],[[7],[3,'item']],[3,'p']],[1,1]])
+Z([[2,'=='],[[6],[[7],[3,'item']],[3,'p']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
 function gz$gwx_21(){
@@ -1738,6 +1745,7 @@ Z([3,'_view 39fe27ff logo'])
 Z([[7],[3,'$k']])
 Z([1,'39fe27ff-1'])
 Z([[2,'?:'],[[2,'!'],[[7],[3,'login']]],[1,'logo-hover'],[1,'']])
+Z([3,'background-color: rgb(0, 122, 255); color: rgb(255, 255, 255);'])
 Z(z[1])
 Z([3,'_view 39fe27ff logo-title'])
 Z(z[3])
@@ -1934,51 +1942,6 @@ throw err
 p_[b]=false
 return r
 }
-d_[x[2]]["17992481-default-17992481-0"]=function(e,s,r,gg){
-var z=gz$gwx_2()
-var b=x[2]+':17992481-default-17992481-0'
-r.wxVkey=b
-gg.f=$gdc(f_["./common/slots.wxml"],"",1)
-if(p_[b]){_wl(b,x[2]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-d_[x[2]]["17992481-backText-17992481-0"]=function(e,s,r,gg){
-var z=gz$gwx_2()
-var b=x[2]+':17992481-backText-17992481-0'
-r.wxVkey=b
-gg.f=$gdc(f_["./common/slots.wxml"],"",1)
-if(p_[b]){_wl(b,x[2]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-d_[x[2]]["17992481-content-17992481-0"]=function(e,s,r,gg){
-var z=gz$gwx_2()
-var b=x[2]+':17992481-content-17992481-0'
-r.wxVkey=b
-gg.f=$gdc(f_["./common/slots.wxml"],"",1)
-if(p_[b]){_wl(b,x[2]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 d_[x[2]]["2e418ddd-default-2e418ddd-0"]=function(e,s,r,gg){
 var z=gz$gwx_2()
 var b=x[2]+':2e418ddd-default-2e418ddd-0'
@@ -2012,6 +1975,51 @@ return r
 d_[x[2]]["2e418ddd-content-2e418ddd-0"]=function(e,s,r,gg){
 var z=gz$gwx_2()
 var b=x[2]+':2e418ddd-content-2e418ddd-0'
+r.wxVkey=b
+gg.f=$gdc(f_["./common/slots.wxml"],"",1)
+if(p_[b]){_wl(b,x[2]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+d_[x[2]]["17992481-default-17992481-0"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[2]+':17992481-default-17992481-0'
+r.wxVkey=b
+gg.f=$gdc(f_["./common/slots.wxml"],"",1)
+if(p_[b]){_wl(b,x[2]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+d_[x[2]]["17992481-backText-17992481-0"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[2]+':17992481-backText-17992481-0'
+r.wxVkey=b
+gg.f=$gdc(f_["./common/slots.wxml"],"",1)
+if(p_[b]){_wl(b,x[2]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+d_[x[2]]["17992481-content-17992481-0"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[2]+':17992481-content-17992481-0'
 r.wxVkey=b
 gg.f=$gdc(f_["./common/slots.wxml"],"",1)
 if(p_[b]){_wl(b,x[2]);return}
@@ -2172,6 +2180,154 @@ throw err
 p_[b]=false
 return r
 }
+d_[x[2]]["1f472abb-default-1f472abb-2"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[2]+':1f472abb-default-1f472abb-2'
+r.wxVkey=b
+gg.f=$gdc(f_["./common/slots.wxml"],"",1)
+if(p_[b]){_wl(b,x[2]);return}
+p_[b]=true
+try{
+var oB=_v()
+_(r,oB)
+cs.push("./common/slots.wxml:template:35:91")
+var xC=_oz(z,60,e,s,gg)
+var oD=_gd(x[2],xC,e_,d_)
+if(oD){
+var fE=_1z(z,57,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[2],35,333)
+cs.pop()
+var cF=_v()
+_(r,cF)
+cs.push("./common/slots.wxml:template:35:596")
+var hG=_oz(z,69,e,s,gg)
+var oH=_gd(x[2],hG,e_,d_)
+if(oH){
+var cI=_1z(z,66,e,s,gg) || {}
+var cur_globalf=gg.f
+cF.wxXCkey=3
+oH(cI,cI,cF,gg)
+gg.f=cur_globalf
+}
+else _w(hG,x[2],35,836)
+cs.pop()
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+d_[x[2]]["1f472abb-default-1f472abb-5"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[2]+':1f472abb-default-1f472abb-5'
+r.wxVkey=b
+gg.f=$gdc(f_["./common/slots.wxml"],"",1)
+if(p_[b]){_wl(b,x[2]);return}
+p_[b]=true
+try{
+var oB=_v()
+_(r,oB)
+cs.push("./common/slots.wxml:template:37:94")
+var xC=_oz(z,79,e,s,gg)
+var oD=_gd(x[2],xC,e_,d_)
+if(oD){
+var fE=_1z(z,76,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[2],37,335)
+cs.pop()
+var cF=_v()
+_(r,cF)
+cs.push("./common/slots.wxml:template:37:412")
+var hG=_oz(z,88,e,s,gg)
+var oH=_gd(x[2],hG,e_,d_)
+if(oH){
+var cI=_1z(z,85,e,s,gg) || {}
+var cur_globalf=gg.f
+cF.wxXCkey=3
+oH(cI,cI,cF,gg)
+gg.f=cur_globalf
+}
+else _w(hG,x[2],37,663)
+cs.pop()
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+d_[x[2]]["1f472abb-default-1f472abb-6"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[2]+':1f472abb-default-1f472abb-6'
+r.wxVkey=b
+gg.f=$gdc(f_["./common/slots.wxml"],"",1)
+if(p_[b]){_wl(b,x[2]);return}
+p_[b]=true
+try{
+cs.push("./common/slots.wxml:view:39:47")
+var oB=_n('view')
+_rz(z,oB,'class',94,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,95,e,s,gg)){xC.wxVkey=1
+cs.push("./common/slots.wxml:template:39:352")
+var fE=_v()
+_(xC,fE)
+cs.push("./common/slots.wxml:template:39:352")
+var cF=_oz(z,97,e,s,gg)
+var hG=_gd(x[2],cF,e_,d_)
+if(hG){
+var oH=_1z(z,96,e,s,gg) || {}
+var cur_globalf=gg.f
+fE.wxXCkey=3
+hG(oH,oH,fE,gg)
+gg.f=cur_globalf
+}
+else _w(cF,x[2],39,486)
+cs.pop()
+cs.pop()
+}
+var oD=_v()
+_(oB,oD)
+if(_oz(z,98,e,s,gg)){oD.wxVkey=1
+cs.push("./common/slots.wxml:template:39:509")
+var cI=_v()
+_(oD,cI)
+cs.push("./common/slots.wxml:template:39:509")
+var oJ=_oz(z,100,e,s,gg)
+var lK=_gd(x[2],oJ,e_,d_)
+if(lK){
+var aL=_1z(z,99,e,s,gg) || {}
+var cur_globalf=gg.f
+cI.wxXCkey=3
+lK(aL,aL,cI,gg)
+gg.f=cur_globalf
+}
+else _w(oJ,x[2],39,644)
+cs.pop()
+cs.pop()
+}
+xC.wxXCkey=1
+oD.wxXCkey=1
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
 d_[x[2]]["3af873db-default-3af873db-5"]=function(e,s,r,gg){
 var z=gz$gwx_2()
 var b=x[2]+':3af873db-default-3af873db-5'
@@ -2180,64 +2336,64 @@ gg.f=$gdc(f_["./common/slots.wxml"],"",1)
 if(p_[b]){_wl(b,x[2]);return}
 p_[b]=true
 try{
-cs.push("./common/slots.wxml:view:35:47")
+cs.push("./common/slots.wxml:view:41:47")
 var oB=_n('view')
-_rz(z,oB,'class',56,e,s,gg)
+_rz(z,oB,'class',102,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./common/slots.wxml:template:35:125")
-var oD=_oz(z,61,e,s,gg)
+cs.push("./common/slots.wxml:template:41:125")
+var oD=_oz(z,107,e,s,gg)
 var fE=_gd(x[2],oD,e_,d_)
 if(fE){
-var cF=_1z(z,58,e,s,gg) || {}
+var cF=_1z(z,104,e,s,gg) || {}
 var cur_globalf=gg.f
 xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[2],35,361)
+else _w(oD,x[2],41,361)
 cs.pop()
 var hG=_v()
 _(oB,hG)
-cs.push("./common/slots.wxml:template:35:671")
-var oH=_oz(z,70,e,s,gg)
+cs.push("./common/slots.wxml:template:41:671")
+var oH=_oz(z,116,e,s,gg)
 var cI=_gd(x[2],oH,e_,d_)
 if(cI){
-var oJ=_1z(z,67,e,s,gg) || {}
+var oJ=_1z(z,113,e,s,gg) || {}
 var cur_globalf=gg.f
 hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[2],35,911)
+else _w(oH,x[2],41,911)
 cs.pop()
 var lK=_v()
 _(oB,lK)
-cs.push("./common/slots.wxml:template:35:986")
-var aL=_oz(z,79,e,s,gg)
+cs.push("./common/slots.wxml:template:41:986")
+var aL=_oz(z,125,e,s,gg)
 var tM=_gd(x[2],aL,e_,d_)
 if(tM){
-var eN=_1z(z,76,e,s,gg) || {}
+var eN=_1z(z,122,e,s,gg) || {}
 var cur_globalf=gg.f
 lK.wxXCkey=3
 tM(eN,eN,lK,gg)
 gg.f=cur_globalf
 }
-else _w(aL,x[2],35,1242)
+else _w(aL,x[2],41,1242)
 cs.pop()
 var bO=_v()
 _(oB,bO)
-cs.push("./common/slots.wxml:template:35:1317")
-var oP=_oz(z,88,e,s,gg)
+cs.push("./common/slots.wxml:template:41:1317")
+var oP=_oz(z,134,e,s,gg)
 var xQ=_gd(x[2],oP,e_,d_)
 if(xQ){
-var oR=_1z(z,85,e,s,gg) || {}
+var oR=_1z(z,131,e,s,gg) || {}
 var cur_globalf=gg.f
 bO.wxXCkey=3
 xQ(oR,oR,bO,gg)
 gg.f=cur_globalf
 }
-else _w(oP,x[2],35,1567)
+else _w(oP,x[2],41,1567)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -2258,166 +2414,18 @@ p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
-cs.push("./common/slots.wxml:template:37:47")
-var xC=_oz(z,95,e,s,gg)
+cs.push("./common/slots.wxml:template:43:47")
+var xC=_oz(z,141,e,s,gg)
 var oD=_gd(x[2],xC,e_,d_)
 if(oD){
-var fE=_1z(z,94,e,s,gg) || {}
+var fE=_1z(z,140,e,s,gg) || {}
 var cur_globalf=gg.f
 oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[2],37,162)
+else _w(xC,x[2],43,162)
 cs.pop()
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-d_[x[2]]["1f472abb-default-1f472abb-2"]=function(e,s,r,gg){
-var z=gz$gwx_2()
-var b=x[2]+':1f472abb-default-1f472abb-2'
-r.wxVkey=b
-gg.f=$gdc(f_["./common/slots.wxml"],"",1)
-if(p_[b]){_wl(b,x[2]);return}
-p_[b]=true
-try{
-var oB=_v()
-_(r,oB)
-cs.push("./common/slots.wxml:template:39:91")
-var xC=_oz(z,101,e,s,gg)
-var oD=_gd(x[2],xC,e_,d_)
-if(oD){
-var fE=_1z(z,98,e,s,gg) || {}
-var cur_globalf=gg.f
-oB.wxXCkey=3
-oD(fE,fE,oB,gg)
-gg.f=cur_globalf
-}
-else _w(xC,x[2],39,333)
-cs.pop()
-var cF=_v()
-_(r,cF)
-cs.push("./common/slots.wxml:template:39:596")
-var hG=_oz(z,110,e,s,gg)
-var oH=_gd(x[2],hG,e_,d_)
-if(oH){
-var cI=_1z(z,107,e,s,gg) || {}
-var cur_globalf=gg.f
-cF.wxXCkey=3
-oH(cI,cI,cF,gg)
-gg.f=cur_globalf
-}
-else _w(hG,x[2],39,836)
-cs.pop()
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-d_[x[2]]["1f472abb-default-1f472abb-5"]=function(e,s,r,gg){
-var z=gz$gwx_2()
-var b=x[2]+':1f472abb-default-1f472abb-5'
-r.wxVkey=b
-gg.f=$gdc(f_["./common/slots.wxml"],"",1)
-if(p_[b]){_wl(b,x[2]);return}
-p_[b]=true
-try{
-var oB=_v()
-_(r,oB)
-cs.push("./common/slots.wxml:template:41:94")
-var xC=_oz(z,120,e,s,gg)
-var oD=_gd(x[2],xC,e_,d_)
-if(oD){
-var fE=_1z(z,117,e,s,gg) || {}
-var cur_globalf=gg.f
-oB.wxXCkey=3
-oD(fE,fE,oB,gg)
-gg.f=cur_globalf
-}
-else _w(xC,x[2],41,335)
-cs.pop()
-var cF=_v()
-_(r,cF)
-cs.push("./common/slots.wxml:template:41:412")
-var hG=_oz(z,129,e,s,gg)
-var oH=_gd(x[2],hG,e_,d_)
-if(oH){
-var cI=_1z(z,126,e,s,gg) || {}
-var cur_globalf=gg.f
-cF.wxXCkey=3
-oH(cI,cI,cF,gg)
-gg.f=cur_globalf
-}
-else _w(hG,x[2],41,663)
-cs.pop()
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-d_[x[2]]["1f472abb-default-1f472abb-6"]=function(e,s,r,gg){
-var z=gz$gwx_2()
-var b=x[2]+':1f472abb-default-1f472abb-6'
-r.wxVkey=b
-gg.f=$gdc(f_["./common/slots.wxml"],"",1)
-if(p_[b]){_wl(b,x[2]);return}
-p_[b]=true
-try{
-cs.push("./common/slots.wxml:view:43:47")
-var oB=_n('view')
-_rz(z,oB,'class',135,e,s,gg)
-var xC=_v()
-_(oB,xC)
-if(_oz(z,136,e,s,gg)){xC.wxVkey=1
-cs.push("./common/slots.wxml:template:43:352")
-var fE=_v()
-_(xC,fE)
-cs.push("./common/slots.wxml:template:43:352")
-var cF=_oz(z,138,e,s,gg)
-var hG=_gd(x[2],cF,e_,d_)
-if(hG){
-var oH=_1z(z,137,e,s,gg) || {}
-var cur_globalf=gg.f
-fE.wxXCkey=3
-hG(oH,oH,fE,gg)
-gg.f=cur_globalf
-}
-else _w(cF,x[2],43,486)
-cs.pop()
-cs.pop()
-}
-var oD=_v()
-_(oB,oD)
-if(_oz(z,139,e,s,gg)){oD.wxVkey=1
-cs.push("./common/slots.wxml:template:43:509")
-var cI=_v()
-_(oD,cI)
-cs.push("./common/slots.wxml:template:43:509")
-var oJ=_oz(z,141,e,s,gg)
-var lK=_gd(x[2],oJ,e_,d_)
-if(lK){
-var aL=_1z(z,140,e,s,gg) || {}
-var cur_globalf=gg.f
-cI.wxXCkey=3
-lK(aL,aL,cI,gg)
-gg.f=cur_globalf
-}
-else _w(oJ,x[2],43,644)
-cs.pop()
-cs.pop()
-}
-xC.wxXCkey=1
-oD.wxXCkey=1
-cs.pop()
-_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -3595,6 +3603,34 @@ gg.f=$gdc(f_["./pages/onechat/onechat.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[33]);return}
 p_[b]=true
 try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/onechat/onechat.vue.wxml:view:1:3393")
+var xC=function(fE,oD,cF,gg){
+cs.push("./pages/onechat/onechat.vue.wxml:view:1:3393")
+var oH=_mz(z,'view',['class',4,'style',1],[],fE,oD,gg)
+var cI=_v()
+_(oH,cI)
+if(_oz(z,6,fE,oD,gg)){cI.wxVkey=1
+cs.push("./pages/onechat/onechat.vue.wxml:view:1:3544")
+cs.pop()
+}
+var oJ=_v()
+_(oH,oJ)
+if(_oz(z,7,fE,oD,gg)){oJ.wxVkey=1
+cs.push("./pages/onechat/onechat.vue.wxml:view:1:4075")
+cs.pop()
+}
+cI.wxXCkey=1
+oJ.wxXCkey=1
+cs.pop()
+_(cF,oH)
+return cF
+}
+_wp('./pages/onechat/onechat.vue.wxml:view:1:3393: Now you can provide attr `wx:key` for a `wx:for` to improve performance.')
+oB.wxXCkey=2
+_2z(z,3,xC,e,s,gg,oB,'item','index','')
+cs.pop()
 }catch(err){
 p_[b]=false
 throw err
@@ -4257,13 +4293,13 @@ if(p_[b]){_wl(b,x[62]);return}
 p_[b]=true
 try{
 cs.push("./pages/usercenter/usercenter.vue.wxml:view:1:63")
-var oB=_mz(z,'view',['bindtap',1,'class',1,'data-comkey',2,'data-eventid',3,'hoverClass',4],[],e,s,gg)
-cs.push("./pages/usercenter/usercenter.vue.wxml:view:1:312")
-var xC=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+var oB=_mz(z,'view',['bindtap',1,'class',1,'data-comkey',2,'data-eventid',3,'hoverClass',4,'style',5],[],e,s,gg)
+cs.push("./pages/usercenter/usercenter.vue.wxml:view:1:383")
+var xC=_mz(z,'view',['bindtap',7,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
 var oD=_v()
 _(xC,oD)
-if(_oz(z,10,e,s,gg)){oD.wxVkey=1
-cs.push("./pages/usercenter/usercenter.vue.wxml:text:1:518")
+if(_oz(z,11,e,s,gg)){oD.wxVkey=1
+cs.push("./pages/usercenter/usercenter.vue.wxml:text:1:589")
 cs.pop()
 }
 oD.wxXCkey=1
@@ -4358,13 +4394,13 @@ require('pages/detail/detail.js');
 __wxRoute = 'pages/usercenter/usercenter';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/usercenter/usercenter.js';
 
 define('pages/usercenter/usercenter.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/usercenter/usercenter"],{"4af5":function(t,e,s){"use strict";var a=s("806f"),i=s.n(a);i.a},"66a5":function(t,e,s){"use strict";s("5035");var a=n(s("b0ce")),i=n(s("cf76"));function n(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(i.default))},"806f":function(t,e,s){},af10:function(t,e,s){"use strict";s.r(e);var a=s("d463"),i=s.n(a);for(var n in a)"default"!==n&&function(t){s.d(e,t,function(){return a[t]})}(n);e["default"]=i.a},b2fc:function(t,e,s){"use strict";var a=function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center"},[s("view",{staticClass:"logo",attrs:{"hover-class":t.login?"":"logo-hover",eventid:"39fe27ff-1"},on:{click:t.goLogin}},[s("image",{staticClass:"logo-img",attrs:{src:t.login?t.uerInfo.avatarUrl:t.avatarUrl}}),s("view",{staticClass:"logo-title",attrs:{eventid:"39fe27ff-0"},on:{click:function(e){t.goLogin()}}},[s("text",{staticClass:"uer-name"},[t._v("Hi，"+t._s(t.login?t.uerInfo.name:"您未登录"))]),t.login?t._e():s("text",{staticClass:"go-login navigat-arrow"},[t._v("")])])]),t._m(0),t._m(1),t._m(2)])},i=[function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center-list"},[s("view",{staticClass:"center-list-item border-bottom"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("账号管理")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])]),s("view",{staticClass:"center-list-item"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("新消息通知")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])])])},function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center-list"},[s("view",{staticClass:"center-list-item border-bottom"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("帮助与反馈")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])]),s("view",{staticClass:"center-list-item"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("服务条款及隐私")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])])])},function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center-list"},[s("view",{staticClass:"center-list-item"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("关于应用")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])])])}];s.d(e,"a",function(){return a}),s.d(e,"b",function(){return i})},cf76:function(t,e,s){"use strict";s.r(e);var a=s("b2fc"),i=s("af10");for(var n in i)"default"!==n&&function(t){s.d(e,t,function(){return i[t]})}(n);s("4af5");var l=s("2877"),c=Object(l["a"])(i["default"],a["a"],a["b"],!1,null,null,null);e["default"]=c.exports},d463:function(t,e,s){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var s={data:function(){return{login:!1,avatarUrl:"/static/logo.png",uerInfo:{}}},methods:{goLogin:function(){this.login||t.navigateTo({url:"/pages/user/login/login"})}}};e.default=s}).call(this,s("649d")["default"])}},[["66a5","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/usercenter/usercenter"],{"11ce":function(t,e,s){"use strict";var a=function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center"},[s("view",{staticClass:"logo",staticStyle:{"background-color":"rgb(0, 122, 255)",color:"rgb(255, 255, 255)"},attrs:{"hover-class":t.login?"":"logo-hover",eventid:"39fe27ff-1"},on:{click:t.goLogin}},[s("image",{staticClass:"logo-img",attrs:{src:t.login?t.uerInfo.avatarUrl:t.avatarUrl}}),s("view",{staticClass:"logo-title",attrs:{eventid:"39fe27ff-0"},on:{click:function(e){t.goLogin()}}},[s("text",{staticClass:"uer-name"},[t._v("Hi，"+t._s(t.login?t.uerInfo.name:"您未登录"))]),t.login?t._e():s("text",{staticClass:"go-login navigat-arrow"},[t._v("")])])]),t._m(0),t._m(1),t._m(2)])},i=[function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center-list"},[s("view",{staticClass:"center-list-item border-bottom"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("账号管理")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])]),s("view",{staticClass:"center-list-item"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("新消息通知")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])])])},function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center-list"},[s("view",{staticClass:"center-list-item border-bottom"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("帮助与反馈")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])]),s("view",{staticClass:"center-list-item"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("服务条款及隐私")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])])])},function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("view",{staticClass:"center-list"},[s("view",{staticClass:"center-list-item"},[s("text",{staticClass:"list-icon"},[t._v("")]),s("text",{staticClass:"list-text"},[t._v("关于应用")]),s("text",{staticClass:"navigat-arrow"},[t._v("")])])])}];s.d(e,"a",function(){return a}),s.d(e,"b",function(){return i})},"4af5":function(t,e,s){"use strict";var a=s("806f"),i=s.n(a);i.a},"66a5":function(t,e,s){"use strict";s("5035");var a=n(s("b0ce")),i=n(s("cf76"));function n(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(i.default))},"806f":function(t,e,s){},af10:function(t,e,s){"use strict";s.r(e);var a=s("d463"),i=s.n(a);for(var n in a)"default"!==n&&function(t){s.d(e,t,function(){return a[t]})}(n);e["default"]=i.a},cf76:function(t,e,s){"use strict";s.r(e);var a=s("11ce"),i=s("af10");for(var n in i)"default"!==n&&function(t){s.d(e,t,function(){return i[t]})}(n);s("4af5");var l=s("2877"),c=Object(l["a"])(i["default"],a["a"],a["b"],!1,null,null,null);e["default"]=c.exports},d463:function(t,e,s){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var s={data:function(){return{login:!1,avatarUrl:"/static/logo.png",uerInfo:{}}},methods:{goLogin:function(){this.login||t.navigateTo({url:"/pages/user/login/login"})}}};e.default=s}).call(this,s("649d")["default"])}},[["66a5","common/runtime","common/vendor"]]]);
 });
 require('pages/usercenter/usercenter.js');
 __wxRoute = 'pages/competition/competition';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/competition/competition.js';
 
 define('pages/competition/competition.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/competition/competition"],{"0520":function(t,n,e){"use strict";var u=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("view",[t._v("赛程页面")])},a=[];e.d(n,"a",function(){return u}),e.d(n,"b",function(){return a})},"2aa8":function(t,n,e){"use strict";e.r(n);var u=e("0520"),a=e("b9b5");for(var r in a)"default"!==r&&function(t){e.d(n,t,function(){return a[t]})}(r);var o=e("2877"),f=Object(o["a"])(a["default"],u["a"],u["b"],!1,null,null,null);n["default"]=f.exports},b9b5:function(t,n,e){"use strict";e.r(n);var u=e("dae4"),a=e.n(u);for(var r in u)"default"!==r&&function(t){e.d(n,t,function(){return u[t]})}(r);n["default"]=a.a},dae4:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u={data:function(){return{}}};n.default=u},f2f5:function(t,n,e){"use strict";e("5035");var u=r(e("b0ce")),a=r(e("2aa8"));function r(t){return t&&t.__esModule?t:{default:t}}Page((0,u.default)(a.default))}},[["f2f5","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/competition/competition"],{"2aa8":function(t,e,a){"use strict";a.r(e);var n=a("f764"),u=a("b9b5");for(var c in u)"default"!==c&&function(t){a.d(e,t,function(){return u[t]})}(c);var o=a("2877"),r=Object(o["a"])(u["default"],n["a"],n["b"],!1,null,null,null);e["default"]=r.exports},b9b5:function(t,e,a){"use strict";a.r(e);var n=a("dae4"),u=a.n(n);for(var c in n)"default"!==c&&function(t){a.d(e,t,function(){return n[t]})}(c);e["default"]=u.a},dae4:function(t,e,a){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a={data:function(){return{resultdata:"123"}},onLoad:function(){var e=this;t.request({url:"https://mat1.gtimg.com/apps/test2/web_shasha_23_new.json",dataType:"json",success:function(t){200==t.statusCode&&(e.resultdata=e.myreplace(t.data),console.log(e.myreplace(t.data)))}})},methods:{matchList23Callback:function(t){console.log(t)},hexToDec:function(t){return t=t.replace(/\\/g,"%"),unescape(t)},myreplace:function(t){return t=t.replace("matchList23Callback(","").replace("})","}"),t}}};e.default=a}).call(this,a("649d")["default"])},f2f5:function(t,e,a){"use strict";a("5035");var n=c(a("b0ce")),u=c(a("2aa8"));function c(t){return t&&t.__esModule?t:{default:t}}Page((0,n.default)(u.default))},f764:function(t,e,a){"use strict";var n=function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("view",[t._v("赛程页面"+t._s(t.resultdata))])},u=[];a.d(e,"a",function(){return n}),a.d(e,"b",function(){return u})}},[["f2f5","common/runtime","common/vendor"]]]);
 });
 require('pages/competition/competition.js');
 __wxRoute = 'pages/message/message';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/message/message.js';
@@ -4376,7 +4412,7 @@ require('pages/message/message.js');
 __wxRoute = 'pages/activity/activity';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/activity/activity.js';
 
 define('pages/activity/activity.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/activity/activity"],{"3ef2":function(t,a,i){"use strict";i("5035");var e=s(i("b0ce")),n=s(i("6cd3"));function s(t){return t&&t.__esModule?t:{default:t}}Page((0,e.default)(n.default))},"6cd3":function(t,a,i){"use strict";i.r(a);var e=i("a1a4"),n=i("ac2d");for(var s in n)"default"!==s&&function(t){i.d(a,t,function(){return n[t]})}(s);i("e119");var c=i("2877"),r=Object(c["a"])(n["default"],e["a"],e["b"],!1,null,null,null);a["default"]=r.exports},a1a4:function(t,a,i){"use strict";var e=function(){var t=this,a=t.$createElement,i=t._self._c||a;return i("view",[i("page-head",{attrs:{title:"swiper,可滑动视图",mpcomid:"01edac9f-0"}}),i("view",{staticClass:"uni-padding-wrap"},[i("view",{staticClass:"page-section swiper"},[i("view",{staticClass:"page-section-spacing"},[i("swiper",{staticClass:"swiper",attrs:{"indicator-dots":t.indicatorDots,autoplay:t.autoplay,interval:t.interval,duration:t.duration}},[i("swiper-item",{attrs:{mpcomid:"01edac9f-1"}},[i("view",{staticClass:"swiper-item uni-bg-red"},[t._v("A")])]),i("swiper-item",{attrs:{mpcomid:"01edac9f-2"}},[i("view",{staticClass:"swiper-item uni-bg-green"},[t._v("B")])]),i("swiper-item",{attrs:{mpcomid:"01edac9f-3"}},[i("view",{staticClass:"swiper-item uni-bg-blue"},[t._v("C")])])],1)],1)])]),i("view",{staticClass:"swiper-list"},[i("view",{staticClass:"uni-list-cell uni-list-cell-pd"},[i("view",{staticClass:"uni-list-cell-db"},[t._v("指示点")]),i("switch",{attrs:{checked:t.indicatorDots,eventid:"01edac9f-0"},on:{change:t.changeIndicatorDots}})]),i("view",{staticClass:"uni-list-cell uni-list-cell-pd"},[i("view",{staticClass:"uni-list-cell-db"},[t._v("自动播放")]),i("switch",{attrs:{checked:t.autoplay,eventid:"01edac9f-1"},on:{change:t.changeAutoplay}})])]),i("view",{staticClass:"uni-padding-wrap"},[i("view",{staticClass:"uni-common-mt"},[i("text",[t._v("幻灯片切换时长(ms)")]),i("text",{staticClass:"info"},[t._v(t._s(t.duration))])]),i("slider",{attrs:{value:t.duration,min:"500",max:"2000",eventid:"01edac9f-2"},on:{change:t.durationChange}}),i("view",{staticClass:"uni-common-mt"},[i("text",[t._v("自动播放间隔时长(ms)")]),i("text",{staticClass:"info"},[t._v(t._s(t.interval))])]),i("slider",{attrs:{value:t.interval,min:"2000",max:"10000",eventid:"01edac9f-3"},on:{change:t.intervalChange}})])],1)},n=[];i.d(a,"a",function(){return e}),i.d(a,"b",function(){return n})},ac2d:function(t,a,i){"use strict";i.r(a);var e=i("c59a"),n=i.n(e);for(var s in e)"default"!==s&&function(t){i.d(a,t,function(){return e[t]})}(s);a["default"]=n.a},c59a:function(t,a,i){"use strict";Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var e={data:function(){return{background:["color1","color2","color3"],indicatorDots:!0,autoplay:!0,interval:2e3,duration:500}},methods:{changeIndicatorDots:function(t){this.indicatorDots=!this.indicatorDots},changeAutoplay:function(t){this.autoplay=!this.autoplay},intervalChange:function(t){this.interval=t.target.value},durationChange:function(t){this.duration=t.target.value}}};a.default=e},da5d:function(t,a,i){},e119:function(t,a,i){"use strict";var e=i("da5d"),n=i.n(e);n.a}},[["3ef2","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/activity/activity"],{"3ef2":function(t,s,e){"use strict";e("5035");var a=c(e("b0ce")),i=c(e("6cd3"));function c(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(i.default))},5450:function(t,s,e){"use strict";var a=function(){var t=this,s=t.$createElement,e=t._self._c||s;return e("view",[e("view",{staticClass:"cu-card dynamic",class:t.isCard?"no-card":""},[e("view",{staticClass:"cu-item shadow"},[t._m(0),e("view",{staticClass:"text-content"},[t._v("折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！")]),e("view",{staticClass:"grid flex-sub padding-lr",class:t.isCard?"col-3 grid-square":"col-1"},t._l(t.isCard?9:1,function(s,a){return e("view",{key:a,staticClass:"bg-img",class:t.isCard?"":"only-img",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg)"}})})),e("view",{staticClass:"text-gray text-sm text-right padding"},[e("text",{staticClass:"icon-attentionfill margin-lr-xs",attrs:{eventid:"01edac9f-0"},on:{click:function(s){t.onBrowse()}}}),t._v(t._s(t.browse)),e("text",{staticClass:"icon-appreciatefill margin-lr-xs",attrs:{eventid:"01edac9f-1"},on:{click:function(s){t.onLike()}}}),t._v(t._s(t.like)),e("text",{staticClass:"icon-messagefill margin-lr-xs",attrs:{eventid:"01edac9f-2"},on:{click:function(s){t.onComment()}}}),t._v(t._s(t.comment))]),t._m(1)])]),e("view",{staticClass:"cu-card dynamic",class:t.isCard?"no-card":""},[e("view",{staticClass:"cu-item shadow"},[t._m(2),e("view",{staticClass:"text-content"},[t._v("折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！")]),e("view",{staticClass:"grid flex-sub padding-lr",class:t.isCard?"col-3 grid-square":"col-1"},t._l(t.isCard?9:1,function(s,a){return e("view",{key:a,staticClass:"bg-img",class:t.isCard?"":"only-img",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg)"}})})),e("view",{staticClass:"text-gray text-sm text-right padding"},[e("text",{staticClass:"icon-attentionfill margin-lr-xs",attrs:{eventid:"01edac9f-3"},on:{click:function(s){t.onBrowse()}}}),t._v(t._s(t.browse)),e("text",{staticClass:"icon-appreciatefill margin-lr-xs",attrs:{eventid:"01edac9f-4"},on:{click:function(s){t.onLike()}}}),t._v(t._s(t.like)),e("text",{staticClass:"icon-messagefill margin-lr-xs",attrs:{eventid:"01edac9f-5"},on:{click:function(s){t.onComment()}}}),t._v(t._s(t.comment))]),t._m(3)])])])},i=[function(){var t=this,s=t.$createElement,e=t._self._c||s;return e("view",{staticClass:"cu-list menu-avatar"},[e("view",{staticClass:"cu-item"},[e("view",{staticClass:"cu-avatar round lg",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg)"}}),e("view",{staticClass:"content flex-sub"},[e("view",[t._v("凯尔")]),e("view",{staticClass:"text-gray text-sm flex justify-between"},[t._v("2019年12月3日")])])])])},function(){var t=this,s=t.$createElement,e=t._self._c||s;return e("view",{staticClass:"cu-list menu-avatar comment solids-top"},[e("view",{staticClass:"cu-item"},[e("view",{staticClass:"cu-avatar round",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png)"}}),e("view",{staticClass:"content"},[e("view",{staticClass:"text-grey"},[t._v("莫甘娜")]),e("view",{staticClass:"text-gray text-content text-df"},[t._v("凯尔，你被自己的光芒变的盲目。")]),e("view",{staticClass:"margin-top-sm justify-between text-left"},[e("view",{staticClass:"text-gray text-df"},[t._v("2018/12/4")])])])]),e("view",{staticClass:"cu-item"},[e("view",{staticClass:"cu-avatar round",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg)"}}),e("view",{staticClass:"content"},[e("view",{staticClass:"text-grey"},[t._v("凯尔")]),e("view",{staticClass:"text-gray text-content text-df"},[t._v("妹妹，如果不是为了飞翔，我们要这翅膀有什么用?")]),e("view",{staticClass:"margin-top-sm flex justify-between"},[e("view",{staticClass:"text-gray text-df"},[t._v("2018/12/4")])])])])])},function(){var t=this,s=t.$createElement,e=t._self._c||s;return e("view",{staticClass:"cu-list menu-avatar"},[e("view",{staticClass:"cu-item"},[e("view",{staticClass:"cu-avatar round lg",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg)"}}),e("view",{staticClass:"content flex-sub"},[e("view",[t._v("凯尔")]),e("view",{staticClass:"text-gray text-sm flex justify-between"},[t._v("2019年12月3日")])])])])},function(){var t=this,s=t.$createElement,e=t._self._c||s;return e("view",{staticClass:"cu-list menu-avatar comment solids-top"},[e("view",{staticClass:"cu-item"},[e("view",{staticClass:"cu-avatar round",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png)"}}),e("view",{staticClass:"content"},[e("view",{staticClass:"text-grey"},[t._v("莫甘娜")]),e("view",{staticClass:"text-gray text-content text-df"},[t._v("凯尔，你被自己的光芒变的盲目。")]),e("view",{staticClass:"bg-grey padding-sm radius margin-top-sm  text-sm"},[e("view",{staticClass:"flex"},[e("view",[t._v("凯尔：")]),e("view",{staticClass:"flex-sub"},[t._v("妹妹，你在帮他们给黑暗找借口吗?")])])]),e("view",{staticClass:"margin-top-sm flex justify-between"},[e("view",{staticClass:"text-gray text-df"},[t._v("2018年12月4日")]),e("view",[e("text",{staticClass:"icon-appreciatefill text-red"}),e("text",{staticClass:"icon-messagefill text-gray margin-left-sm"})])])])]),e("view",{staticClass:"cu-item"},[e("view",{staticClass:"cu-avatar round",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg)"}}),e("view",{staticClass:"content"},[e("view",{staticClass:"text-grey"},[t._v("凯尔")]),e("view",{staticClass:"text-gray text-content text-df"},[t._v("妹妹，如果不是为了飞翔，我们要这翅膀有什么用?")]),e("view",{staticClass:"bg-grey padding-sm radius margin-top-sm  text-sm"},[e("view",{staticClass:"flex"},[e("view",[t._v("莫甘娜：")]),e("view",{staticClass:"flex-sub"},[t._v("如果不能立足于大地，要这双脚又有何用?")])])]),e("view",{staticClass:"margin-top-sm flex justify-between"},[e("view",{staticClass:"text-gray text-df"},[t._v("2018年12月4日")]),e("view",[e("text",{staticClass:"icon-appreciate text-gray"}),e("text",{staticClass:"icon-messagefill text-gray margin-left-sm"})])])])])])}];e.d(s,"a",function(){return a}),e.d(s,"b",function(){return i})},"6cd3":function(t,s,e){"use strict";e.r(s);var a=e("5450"),i=e("ac2d");for(var c in i)"default"!==c&&function(t){e.d(s,t,function(){return i[t]})}(c);e("e119");var n=e("2877"),l=Object(n["a"])(i["default"],a["a"],a["b"],!1,null,null,null);s["default"]=l.exports},ac2d:function(t,s,e){"use strict";e.r(s);var a=e("c59a"),i=e.n(a);for(var c in a)"default"!==c&&function(t){e.d(s,t,function(){return a[t]})}(c);s["default"]=i.a},c59a:function(t,s,e){"use strict";Object.defineProperty(s,"__esModule",{value:!0}),s.default=void 0,e("0d79"),e("08ad");var a={data:function(){return{isCard:!0,browse:10,like:20,comment:30}},methods:{IsCard:function(t){this.isCard=t.detail.value},onBrowse:function(t){this.browse++},onLike:function(t){this.like++},onComment:function(t){this.comment++}}};s.default=a},da5d:function(t,s,e){},e119:function(t,s,e){"use strict";var a=e("da5d"),i=e.n(a);i.a}},[["3ef2","common/runtime","common/vendor"]]]);
 });
 require('pages/activity/activity.js');
 __wxRoute = 'pages/login/login';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/login/login.js';
@@ -4388,13 +4424,13 @@ require('pages/login/login.js');
 __wxRoute = 'pages/user/login/login';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/user/login/login.js';
 
 define('pages/user/login/login.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/user/login/login"],{"1aa2":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=c(n("b19f")),s=c(n("a180")),o=c(n("cbd5")),i=c(n("6b91"));function c(t){return t&&t.__esModule?t:{default:t}}var l={components:{cmdNavBar:a.default,cmdPageBody:s.default,cmdTransition:o.default,cmdInput:i.default},data:function(){return{account:{username:"",password:""},usernameReg:/^[A-Za-z0-9]+$/,passwordReg:/^\w+$/,loginAccount:!1,mobile:{phone:"",code:""},phoneReg:/^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/,loginMobile:!1,safety:{time:60,state:!1,interval:""},status:!0}},watch:{mobile:{handler:function(t){this.phoneReg.test(t.phone)&&6===t.code.length?this.loginMobile=!0:this.loginMobile=!1},deep:!0},account:{handler:function(t){this.usernameReg.test(t.username)&&t.username.length>=8&&this.passwordReg.test(t.password)&&t.password.length>=8?this.loginAccount=!0:this.loginAccount=!1},deep:!0}},methods:{fnLogin:function(){this.status?console.log(JSON.stringify(this.mobile)):console.log(JSON.stringify(this.account))},fnGetPhoneCode:function(){var e=this;this.phoneReg.test(this.mobile.phone)?t.showToast({title:"正在发送验证码",icon:"loading",success:function(){e.safety.state=!0,e.safety.interval=setInterval(function(){e.safety.time--<=0&&(e.safety.time=60,e.safety.state=!1,clearInterval(e.safety.interval))},1e3),t.showToast({title:"发送成功",icon:"success"})}}):t.showToast({title:"手机号不正确",icon:"none"})},fnChangeStatus:function(t){this.mobile={phone:"",code:""},this.loginMobile=!1,this.account={username:"",password:""},this.loginAccount=!1,clearInterval(this.safety.interval),this.safety.time=60,this.safety.state=!1,t||(this.status=!this.status)},fnRegisterWin:function(){t.navigateTo({url:"/pages/user/register/register"}),this.fnChangeStatus(!0)}},beforeDestroy:function(){clearInterval(this.safety.interval)},onNavigationBarButtonTap:function(){t.navigateTo({url:"/pages/user/register/register"})}};e.default=l}).call(this,n("649d")["default"])},3234:function(t,e,n){"use strict";n.r(e);var a=n("1aa2"),s=n.n(a);for(var o in a)"default"!==o&&function(t){n.d(e,t,function(){return a[t]})}(o);e["default"]=s.a},6657:function(t,e,n){"use strict";var a=n("70bc"),s=n.n(a);s.a},"70bc":function(t,e,n){},b725:function(t,e,n){"use strict";n.r(e);var a=n("d31d"),s=n("3234");for(var o in s)"default"!==o&&function(t){n.d(e,t,function(){return s[t]})}(o);n("6657");var i=n("2877"),c=Object(i["a"])(s["default"],a["a"],a["b"],!1,null,null,null);e["default"]=c.exports},bb91:function(t,e,n){"use strict";n("5035");var a=o(n("b0ce")),s=o(n("b725"));function o(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(s.default))},d31d:function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[n("cmd-page-body",{attrs:{type:"top",mpcomid:"52a6c46f-6"}},[n("view",{staticClass:"login"},[n("view",{staticClass:"login-title"},[t._v(t._s(t.status?"手机快捷登录":"使用账号密码登录"))]),n("view",{staticClass:"login-explain"},[t._v(t._s(t.status?"已注册用户可通过手机验证码直接登录":"未注册用户可通过点击右上角进行注册"))]),t.status?n("cmd-transition",{attrs:{name:"fade-up",mpcomid:"52a6c46f-2"}},[n("view",{staticClass:"login-phone"},[n("cmd-input",{attrs:{type:"number",focus:"",maxlength:"11",placeholder:"请输入手机号",eventid:"52a6c46f-0",mpcomid:"52a6c46f-0"},model:{value:t.mobile.phone,callback:function(e){t.mobile.phone=e},expression:"mobile.phone"}}),n("view",{staticClass:"login-phone-getcode",attrs:{eventid:"52a6c46f-1"},on:{tap:function(e){!t.safety.state&&t.fnGetPhoneCode()}}},[t._v(t._s(t.safety.state?t.safety.time+" s":"获取验证码"))])],1),n("view",{staticClass:"login-code"},[n("cmd-input",{attrs:{type:"number",maxlength:"6",placeholder:"请输入短信验证码",eventid:"52a6c46f-2",mpcomid:"52a6c46f-1"},model:{value:t.mobile.code,callback:function(e){t.mobile.code=e},expression:"mobile.code"}})],1),n("button",{staticClass:"btn-login",class:t.loginMobile?"btn-login-active":"",attrs:{disabled:!t.loginMobile,"hover-class":"btn-login-hover",eventid:"52a6c46f-3"},on:{tap:t.fnLogin}},[t._v("登录")])],1):t._e(),t.status?t._e():n("cmd-transition",{attrs:{name:"fade-up",mpcomid:"52a6c46f-5"}},[n("view",{staticClass:"login-username"},[n("cmd-input",{attrs:{type:"text",focus:"",maxlength:"26",placeholder:"请输入账号",eventid:"52a6c46f-4",mpcomid:"52a6c46f-3"},model:{value:t.account.username,callback:function(e){t.account.username=e},expression:"account.username"}})],1),n("view",{staticClass:"login-password"},[n("cmd-input",{attrs:{type:"password",displayable:"",maxlength:"26",placeholder:"请输入密码",eventid:"52a6c46f-5",mpcomid:"52a6c46f-4"},model:{value:t.account.password,callback:function(e){t.account.password=e},expression:"account.password"}})],1),n("button",{staticClass:"btn-login",class:t.loginAccount?"btn-login-active":"",attrs:{disabled:!t.loginAccount,"hover-class":"btn-login-hover",eventid:"52a6c46f-6"},on:{tap:t.fnLogin}},[t._v("登录")])],1),n("view",{staticClass:"login-mode",attrs:{eventid:"52a6c46f-7"},on:{tap:function(e){t.fnChangeStatus(!1)}}},[t._v(t._s(t.status?"账号密码登录":"手机快捷登录"))])],1)])],1)},s=[];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return s})}},[["bb91","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/user/login/login"],{"1aa2":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=c(n("b19f")),s=c(n("a180")),o=c(n("cbd5")),i=c(n("6b91"));function c(t){return t&&t.__esModule?t:{default:t}}var l={components:{cmdNavBar:a.default,cmdPageBody:s.default,cmdTransition:o.default,cmdInput:i.default},data:function(){return{account:{username:"",password:""},usernameReg:/^[A-Za-z0-9]+$/,passwordReg:/^\w+$/,loginAccount:!1,mobile:{phone:"",code:""},phoneReg:/^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/,loginMobile:!1,safety:{time:60,state:!1,interval:""},status:!0}},watch:{mobile:{handler:function(t){this.phoneReg.test(t.phone)&&6===t.code.length?this.loginMobile=!0:this.loginMobile=!1},deep:!0},account:{handler:function(t){this.usernameReg.test(t.username)&&t.username.length>=8&&this.passwordReg.test(t.password)&&t.password.length>=8?this.loginAccount=!0:this.loginAccount=!1},deep:!0}},methods:{fnLogin:function(){this.status?console.log(JSON.stringify(this.mobile)):console.log(JSON.stringify(this.account))},fnGetPhoneCode:function(){var e=this;this.phoneReg.test(this.mobile.phone)?t.showToast({title:"正在发送验证码",icon:"loading",success:function(){e.safety.state=!0,e.safety.interval=setInterval(function(){e.safety.time--<=0&&(e.safety.time=60,e.safety.state=!1,clearInterval(e.safety.interval))},1e3),t.showToast({title:"发送成功",icon:"success"})}}):t.showToast({title:"手机号不正确",icon:"none"})},fnChangeStatus:function(t){this.mobile={phone:"",code:""},this.loginMobile=!1,this.account={username:"",password:""},this.loginAccount=!1,clearInterval(this.safety.interval),this.safety.time=60,this.safety.state=!1,t||(this.status=!this.status)},fnRegisterWin:function(){t.navigateTo({url:"/pages/user/register/register"}),this.fnChangeStatus(!0)}},beforeDestroy:function(){clearInterval(this.safety.interval)},onNavigationBarButtonTap:function(){t.navigateTo({url:"/pages/user/register/register"})}};e.default=l}).call(this,n("649d")["default"])},3234:function(t,e,n){"use strict";n.r(e);var a=n("1aa2"),s=n.n(a);for(var o in a)"default"!==o&&function(t){n.d(e,t,function(){return a[t]})}(o);e["default"]=s.a},"3b1e":function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[n("cmd-page-body",{staticStyle:{"margin-top":"0"},attrs:{type:"top",mpcomid:"52a6c46f-6"}},[n("view",{staticClass:"login"},[n("view",{staticClass:"login-title"},[t._v(t._s(t.status?"手机快捷登录":"使用账号密码登录"))]),n("view",{staticClass:"login-explain"},[t._v(t._s(t.status?"已注册用户可通过手机验证码直接登录":"未注册用户可通过点击右上角进行注册"))]),t.status?n("cmd-transition",{attrs:{name:"fade-up",mpcomid:"52a6c46f-2"}},[n("view",{staticClass:"login-phone"},[n("cmd-input",{attrs:{type:"number",focus:"",maxlength:"11",placeholder:"请输入手机号",eventid:"52a6c46f-0",mpcomid:"52a6c46f-0"},model:{value:t.mobile.phone,callback:function(e){t.mobile.phone=e},expression:"mobile.phone"}}),n("view",{staticClass:"login-phone-getcode",attrs:{eventid:"52a6c46f-1"},on:{tap:function(e){!t.safety.state&&t.fnGetPhoneCode()}}},[t._v(t._s(t.safety.state?t.safety.time+" s":"获取验证码"))])],1),n("view",{staticClass:"login-code"},[n("cmd-input",{attrs:{type:"number",maxlength:"6",placeholder:"请输入短信验证码",eventid:"52a6c46f-2",mpcomid:"52a6c46f-1"},model:{value:t.mobile.code,callback:function(e){t.mobile.code=e},expression:"mobile.code"}})],1),n("button",{staticClass:"btn-login",class:t.loginMobile?"btn-login-active":"",attrs:{disabled:!t.loginMobile,"hover-class":"btn-login-hover",eventid:"52a6c46f-3"},on:{tap:t.fnLogin}},[t._v("登录")])],1):t._e(),t.status?t._e():n("cmd-transition",{attrs:{name:"fade-up",mpcomid:"52a6c46f-5"}},[n("view",{staticClass:"login-username"},[n("cmd-input",{attrs:{type:"text",focus:"",maxlength:"26",placeholder:"请输入账号",eventid:"52a6c46f-4",mpcomid:"52a6c46f-3"},model:{value:t.account.username,callback:function(e){t.account.username=e},expression:"account.username"}})],1),n("view",{staticClass:"login-password"},[n("cmd-input",{attrs:{type:"password",displayable:"",maxlength:"26",placeholder:"请输入密码",eventid:"52a6c46f-5",mpcomid:"52a6c46f-4"},model:{value:t.account.password,callback:function(e){t.account.password=e},expression:"account.password"}})],1),n("button",{staticClass:"btn-login",class:t.loginAccount?"btn-login-active":"",attrs:{disabled:!t.loginAccount,"hover-class":"btn-login-hover",eventid:"52a6c46f-6"},on:{tap:t.fnLogin}},[t._v("登录")])],1),n("view",{staticClass:"login-mode",attrs:{eventid:"52a6c46f-7"},on:{tap:function(e){t.fnChangeStatus(!1)}}},[t._v(t._s(t.status?"账号密码登录":"手机快捷登录"))])],1)])],1)},s=[];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return s})},6657:function(t,e,n){"use strict";var a=n("70bc"),s=n.n(a);s.a},"70bc":function(t,e,n){},b725:function(t,e,n){"use strict";n.r(e);var a=n("3b1e"),s=n("3234");for(var o in s)"default"!==o&&function(t){n.d(e,t,function(){return s[t]})}(o);n("6657");var i=n("2877"),c=Object(i["a"])(s["default"],a["a"],a["b"],!1,null,null,null);e["default"]=c.exports},bb91:function(t,e,n){"use strict";n("5035");var a=o(n("b0ce")),s=o(n("b725"));function o(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(s.default))}},[["bb91","common/runtime","common/vendor"]]]);
 });
 require('pages/user/login/login.js');
 __wxRoute = 'pages/user/register/register';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/user/register/register.js';
 
 define('pages/user/register/register.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/user/register/register"],{"665d":function(e,t,s){"use strict";s.r(t);var a=s("bbff"),n=s.n(a);for(var i in a)"default"!==i&&function(e){s.d(t,e,function(){return a[e]})}(i);t["default"]=n.a},"89c3":function(e,t,s){"use strict";var a=s("a6cb"),n=s.n(a);n.a},"96c3":function(e,t,s){"use strict";var a=function(){var e=this,t=e.$createElement,s=e._self._c||t;return s("view",[s("cmd-page-body",{attrs:{type:"top",mpcomid:"1f472abb-6"}},[s("view",{staticClass:"register"},[s("view",{staticClass:"register-title"},[e._v(e._s(e.status?"手机快捷注册":"账号密码注册"))]),s("view",{staticClass:"register-explain"},[e._v(e._s(e.status?"用户可通过手机验证码直接注册":"使用账号密码注册后请绑定手机号"))]),e.status?s("cmd-transition",{attrs:{name:"fade-up",mpcomid:"1f472abb-2"}},[s("view",{staticClass:"register-phone"},[s("cmd-input",{attrs:{type:"number",focus:"",maxlength:"11",placeholder:"请输入手机号",eventid:"1f472abb-0",mpcomid:"1f472abb-0"},model:{value:e.mobile.phone,callback:function(t){e.mobile.phone=t},expression:"mobile.phone"}}),s("view",{staticClass:"register-phone-getcode",attrs:{eventid:"1f472abb-1"},on:{tap:function(t){!e.safety.state&&e.fnGetPhoneCode()}}},[e._v(e._s(e.safety.state?e.safety.time+" s":"获取验证码"))])],1),s("view",{staticClass:"register-code"},[s("cmd-input",{attrs:{type:"number",maxlength:"6",placeholder:"请输入短信验证码",eventid:"1f472abb-2",mpcomid:"1f472abb-1"},model:{value:e.mobile.code,callback:function(t){e.mobile.code=t},expression:"mobile.code"}})],1),s("button",{staticClass:"btn-register",class:e.registerMobile?"btn-register-active":"",attrs:{disabled:!e.registerMobile,"hover-class":"btn-register-hover",eventid:"1f472abb-3"},on:{tap:e.fnRegister}},[e._v("注册")])],1):e._e(),e.status?e._e():s("cmd-transition",{attrs:{name:"fade-up",mpcomid:"1f472abb-5"}},[s("view",{staticClass:"register-username"},[s("cmd-input",{attrs:{type:"text",focus:"",maxlength:"26",placeholder:"请输入账号",eventid:"1f472abb-4",mpcomid:"1f472abb-3"},model:{value:e.account.username,callback:function(t){e.account.username=t},expression:"account.username"}})],1),s("view",{staticClass:"register-password"},[s("cmd-input",{attrs:{type:"password",displayable:"",maxlength:"26",placeholder:"请输入密码",eventid:"1f472abb-5",mpcomid:"1f472abb-4"},model:{value:e.account.password,callback:function(t){e.account.password=t},expression:"account.password"}})],1),s("button",{staticClass:"btn-register",class:e.registerAccount?"btn-register-active":"",attrs:{disabled:!e.registerAccount,"hover-class":"btn-register-hover",eventid:"1f472abb-6"},on:{tap:e.fnRegister}},[e._v("注册")])],1),s("view",{staticClass:"register-mode",attrs:{eventid:"1f472abb-7"},on:{tap:e.fnChangeStatus}},[e._v(e._s(e.status?"账号密码注册":"手机快捷注册"))])],1)])],1)},n=[];s.d(t,"a",function(){return a}),s.d(t,"b",function(){return n})},a6cb:function(e,t,s){},bbff:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var a=r(s("b19f")),n=r(s("a180")),i=r(s("cbd5")),o=r(s("6b91"));function r(e){return e&&e.__esModule?e:{default:e}}var c={components:{cmdNavBar:a.default,cmdPageBody:n.default,cmdTransition:i.default,cmdInput:o.default},data:function(){return{account:{username:"",password:""},usernameReg:/^[A-Za-z0-9]+$/,passwordReg:/^\w+$/,registerAccount:!1,mobile:{phone:"",code:""},phoneReg:/^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/,registerMobile:!1,safety:{time:60,state:!1,interval:""},status:!0}},watch:{mobile:{handler:function(e){this.phoneReg.test(e.phone)&&6===e.code.length?this.registerMobile=!0:this.registerMobile=!1},deep:!0},account:{handler:function(e){this.usernameReg.test(e.username)&&e.username.length>=8&&this.passwordReg.test(e.password)&&e.password.length>=8?this.registerAccount=!0:this.registerAccount=!1},deep:!0}},methods:{fnRegister:function(){this.status?console.log(JSON.stringify(this.mobile)):console.log(JSON.stringify(this.account))},fnGetPhoneCode:function(){var t=this;this.phoneReg.test(this.mobile.phone)?e.showToast({title:"正在发送验证码",icon:"loading",success:function(){t.safety.state=!0,t.safety.interval=setInterval(function(){t.safety.time--<=0&&(t.safety.time=60,t.safety.state=!1,clearInterval(t.safety.interval))},1e3),e.showToast({title:"发送成功",icon:"success"})}}):e.showToast({title:"手机号不正确",icon:"none"})},fnChangeStatus:function(){this.mobile={phone:"",code:""},this.registerAccount=!1,this.account={username:"",password:""},this.registerMobile=!1,clearInterval(this.safety.interval),this.safety.time=60,this.safety.state=!1,this.status=!this.status}},beforeDestroy:function(){clearInterval(this.safety.interval)}};t.default=c}).call(this,s("649d")["default"])},c11d:function(e,t,s){"use strict";s.r(t);var a=s("96c3"),n=s("665d");for(var i in n)"default"!==i&&function(e){s.d(t,e,function(){return n[e]})}(i);s("89c3");var o=s("2877"),r=Object(o["a"])(n["default"],a["a"],a["b"],!1,null,null,null);t["default"]=r.exports},e81b:function(e,t,s){"use strict";s("5035");var a=i(s("b0ce")),n=i(s("c11d"));function i(e){return e&&e.__esModule?e:{default:e}}Page((0,a.default)(n.default))}},[["e81b","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/user/register/register"],{"665d":function(e,t,s){"use strict";s.r(t);var a=s("bbff"),n=s.n(a);for(var i in a)"default"!==i&&function(e){s.d(t,e,function(){return a[e]})}(i);t["default"]=n.a},"89c3":function(e,t,s){"use strict";var a=s("a6cb"),n=s.n(a);n.a},a6cb:function(e,t,s){},bbff:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var a=r(s("b19f")),n=r(s("a180")),i=r(s("cbd5")),o=r(s("6b91"));function r(e){return e&&e.__esModule?e:{default:e}}var c={components:{cmdNavBar:a.default,cmdPageBody:n.default,cmdTransition:i.default,cmdInput:o.default},data:function(){return{account:{username:"",password:""},usernameReg:/^[A-Za-z0-9]+$/,passwordReg:/^\w+$/,registerAccount:!1,mobile:{phone:"",code:""},phoneReg:/^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/,registerMobile:!1,safety:{time:60,state:!1,interval:""},status:!0}},watch:{mobile:{handler:function(e){this.phoneReg.test(e.phone)&&6===e.code.length?this.registerMobile=!0:this.registerMobile=!1},deep:!0},account:{handler:function(e){this.usernameReg.test(e.username)&&e.username.length>=8&&this.passwordReg.test(e.password)&&e.password.length>=8?this.registerAccount=!0:this.registerAccount=!1},deep:!0}},methods:{fnRegister:function(){this.status?console.log(JSON.stringify(this.mobile)):console.log(JSON.stringify(this.account))},fnGetPhoneCode:function(){var t=this;this.phoneReg.test(this.mobile.phone)?e.showToast({title:"正在发送验证码",icon:"loading",success:function(){t.safety.state=!0,t.safety.interval=setInterval(function(){t.safety.time--<=0&&(t.safety.time=60,t.safety.state=!1,clearInterval(t.safety.interval))},1e3),e.showToast({title:"发送成功",icon:"success"})}}):e.showToast({title:"手机号不正确",icon:"none"})},fnChangeStatus:function(){this.mobile={phone:"",code:""},this.registerAccount=!1,this.account={username:"",password:""},this.registerMobile=!1,clearInterval(this.safety.interval),this.safety.time=60,this.safety.state=!1,this.status=!this.status}},beforeDestroy:function(){clearInterval(this.safety.interval)}};t.default=c}).call(this,s("649d")["default"])},c11d:function(e,t,s){"use strict";s.r(t);var a=s("d4e1"),n=s("665d");for(var i in n)"default"!==i&&function(e){s.d(t,e,function(){return n[e]})}(i);s("89c3");var o=s("2877"),r=Object(o["a"])(n["default"],a["a"],a["b"],!1,null,null,null);t["default"]=r.exports},d4e1:function(e,t,s){"use strict";var a=function(){var e=this,t=e.$createElement,s=e._self._c||t;return s("view",[s("cmd-page-body",{staticStyle:{"margin-top":"0"},attrs:{type:"top",mpcomid:"1f472abb-6"}},[s("view",{staticClass:"register"},[s("view",{staticClass:"register-title"},[e._v(e._s(e.status?"手机快捷注册":"账号密码注册"))]),s("view",{staticClass:"register-explain"},[e._v(e._s(e.status?"用户可通过手机验证码直接注册":"使用账号密码注册后请绑定手机号"))]),e.status?s("cmd-transition",{attrs:{name:"fade-up",mpcomid:"1f472abb-2"}},[s("view",{staticClass:"register-phone"},[s("cmd-input",{attrs:{type:"number",focus:"",maxlength:"11",placeholder:"请输入手机号",eventid:"1f472abb-0",mpcomid:"1f472abb-0"},model:{value:e.mobile.phone,callback:function(t){e.mobile.phone=t},expression:"mobile.phone"}}),s("view",{staticClass:"register-phone-getcode",attrs:{eventid:"1f472abb-1"},on:{tap:function(t){!e.safety.state&&e.fnGetPhoneCode()}}},[e._v(e._s(e.safety.state?e.safety.time+" s":"获取验证码"))])],1),s("view",{staticClass:"register-code"},[s("cmd-input",{attrs:{type:"number",maxlength:"6",placeholder:"请输入短信验证码",eventid:"1f472abb-2",mpcomid:"1f472abb-1"},model:{value:e.mobile.code,callback:function(t){e.mobile.code=t},expression:"mobile.code"}})],1),s("button",{staticClass:"btn-register",class:e.registerMobile?"btn-register-active":"",attrs:{disabled:!e.registerMobile,"hover-class":"btn-register-hover",eventid:"1f472abb-3"},on:{tap:e.fnRegister}},[e._v("注册")])],1):e._e(),e.status?e._e():s("cmd-transition",{attrs:{name:"fade-up",mpcomid:"1f472abb-5"}},[s("view",{staticClass:"register-username"},[s("cmd-input",{attrs:{type:"text",focus:"",maxlength:"26",placeholder:"请输入账号",eventid:"1f472abb-4",mpcomid:"1f472abb-3"},model:{value:e.account.username,callback:function(t){e.account.username=t},expression:"account.username"}})],1),s("view",{staticClass:"register-password"},[s("cmd-input",{attrs:{type:"password",displayable:"",maxlength:"26",placeholder:"请输入密码",eventid:"1f472abb-5",mpcomid:"1f472abb-4"},model:{value:e.account.password,callback:function(t){e.account.password=t},expression:"account.password"}})],1),s("button",{staticClass:"btn-register",class:e.registerAccount?"btn-register-active":"",attrs:{disabled:!e.registerAccount,"hover-class":"btn-register-hover",eventid:"1f472abb-6"},on:{tap:e.fnRegister}},[e._v("注册")])],1),s("view",{staticClass:"register-mode",attrs:{eventid:"1f472abb-7"},on:{tap:e.fnChangeStatus}},[e._v(e._s(e.status?"账号密码注册":"手机快捷注册"))])],1)])],1)},n=[];s.d(t,"a",function(){return a}),s.d(t,"b",function(){return n})},e81b:function(e,t,s){"use strict";s("5035");var a=i(s("b0ce")),n=i(s("c11d"));function i(e){return e&&e.__esModule?e:{default:e}}Page((0,a.default)(n.default))}},[["e81b","common/runtime","common/vendor"]]]);
 });
 require('pages/user/register/register.js');
 __wxRoute = 'pages/user/modify/modify';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/user/modify/modify.js';
@@ -4442,7 +4478,7 @@ require('pages/plugin/verticalnav.js');
 __wxRoute = 'pages/onechat/onechat';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/onechat/onechat.js';
 
 define('pages/onechat/onechat.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/onechat/onechat"],{"10e3":function(t,s,a){"use strict";var i=a("deda"),e=a.n(i);e.a},"349d":function(t,s,a){"use strict";a("5035");var i=c(a("b0ce")),e=c(a("6b08"));function c(t){return t&&t.__esModule?t:{default:t}}Page((0,i.default)(e.default))},"6b08":function(t,s,a){"use strict";a.r(s);var i=a("fe73"),e=a("cc51");for(var c in e)"default"!==c&&function(t){a.d(s,t,function(){return e[t]})}(c);a("10e3");var n=a("2877"),l=Object(n["a"])(e["default"],i["a"],i["b"],!1,null,null,null);s["default"]=l.exports},bc6d:function(t,s,a){"use strict";(function(t){Object.defineProperty(s,"__esModule",{value:!0}),s.default=void 0,a("0d79"),a("08ad");var i={data:function(){return{InputBottom:0}},onLoad:function(){t.setNavigationBarTitle({title:"好友名字"})},methods:{InputFocus:function(t){this.InputBottom=t.detail.height},InputBlur:function(t){this.InputBottom=0}}};s.default=i}).call(this,a("649d")["default"])},cc51:function(t,s,a){"use strict";a.r(s);var i=a("bc6d"),e=a.n(i);for(var c in i)"default"!==c&&function(t){a.d(s,t,function(){return i[t]})}(c);s["default"]=e.a},deda:function(t,s,a){},fe73:function(t,s,a){"use strict";var i=function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",[t._m(0),a("view",{staticClass:"cu-bar foot input",style:[{bottom:t.InputBottom+"px"}]},[t._m(1),a("input",{staticClass:"solid-bottom",attrs:{"adjust-position":!1,focus:!1,maxlength:"300","cursor-spacing":"10",eventid:"149eea06-0"},on:{focus:t.InputFocus,blur:t.InputBlur}}),t._m(2),a("button",{staticClass:"cu-btn bg-green shadow"},[t._v("发送")])],1)])},e=[function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-chat"},[a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[a("view",{staticClass:"content bg-green shadow"},[a("text",[t._v("喵喵喵！喵喵喵！喵喵喵！喵喵！喵喵！！喵！喵喵喵！")])])]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("2018年3月23日 13:23")])]),a("view",{staticClass:"cu-info round"},[t._v("对方撤回一条消息!")]),a("view",{staticClass:"cu-item"},[a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big143004.jpg)"}}),a("view",{staticClass:"main"},[a("view",{staticClass:"content shadow"},[a("text",[t._v("喵喵喵！喵喵喵！")])])]),a("view",{staticClass:"date "},[t._v("13:23")])]),a("view",{staticClass:"cu-info"},[a("text",{staticClass:"icon-roundclosefill text-red "}),t._v("对方拒绝了你的消息")]),a("view",{staticClass:"cu-info"},[t._v("对方开启了好友验证，你还不是他(她)的好友。请先发送好友验证请求，对方验证通过后，才能聊天。"),a("text",{staticClass:"text-blue"},[t._v("发送好友验证")])]),a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[a("image",{staticClass:"radius",attrs:{src:"https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg",mode:"widthFix"}})]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("13:23")])]),a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[a("view",{staticClass:"action text-bold text-grey"},[t._v('3"')]),a("view",{staticClass:"content shadow"},[a("text",{staticClass:"icon-sound text-xxl padding-right-xl"})])]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("13:23")])]),a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[a("view",{staticClass:"action"},[a("text",{staticClass:"icon-locationfill text-orange text-xxl"})]),a("view",{staticClass:"content shadow"},[t._v("喵星球，喵喵市")])]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("13:23")])]),a("view",{staticClass:"cu-item"},[a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big143004.jpg)"}}),a("view",{staticClass:"main"},[a("view",{staticClass:"content shadow"},[t._v("@#$^&**")]),a("view",{staticClass:"action text-grey"},[a("text",{staticClass:"icon-warnfill text-red text-xxl"}),a("text",{staticClass:"text-sm margin-left-sm"},[t._v("翻译错误")])])]),a("view",{staticClass:"date"},[t._v("13:23")])])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"action"},[a("text",{staticClass:"icon-sound text-grey"})])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"action"},[a("text",{staticClass:"icon-emojifill text-grey"})])}];a.d(s,"a",function(){return i}),a.d(s,"b",function(){return e})}},[["349d","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/onechat/onechat"],{"10e3":function(t,s,a){"use strict";var e=a("deda"),i=a.n(e);i.a},"349d":function(t,s,a){"use strict";a("5035");var e=c(a("b0ce")),i=c(a("6b08"));function c(t){return t&&t.__esModule?t:{default:t}}Page((0,e.default)(i.default))},"6b08":function(t,s,a){"use strict";a.r(s);var e=a("c49e"),i=a("cc51");for(var c in i)"default"!==c&&function(t){a.d(s,t,function(){return i[t]})}(c);a("10e3");var n=a("2877"),l=Object(n["a"])(i["default"],e["a"],e["b"],!1,null,null,null);s["default"]=l.exports},bc6d:function(t,s,a){"use strict";(function(t){Object.defineProperty(s,"__esModule",{value:!0}),s.default=void 0,a("0d79"),a("08ad");var e={data:function(){return{InputBottom:0,inputData:"",mesData:["内容1","内容2"],chatData:[{p:1,content:"吃饭没"},{p:0,content:"没吃"}]}},onLoad:function(){t.setNavigationBarTitle({title:"好友名字"})},methods:{InputFocus:function(t){this.InputBottom=t.detail.height},InputBlur:function(t){this.InputBottom=0},sendMessage:function(t){if(""!=this.inputData){var s={p:1};s["content"]=this.inputData,this.chatData[this.chatData.length]={p:1,content:this.inputData},this.inputData="",console.log("发送消息:"+this.inputData)}else console.log("不能发送空消息")}}};s.default=e}).call(this,a("649d")["default"])},c49e:function(t,s,a){"use strict";var e=function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",[a("view",{staticClass:"cu-chat",staticStyle:{"margin-bottom":"170rpx"}},[t._m(0),a("view",{staticClass:"cu-info round"},[t._v("对方撤回一条消息!")]),t._m(1),t._m(2),t._m(3),t._m(4),t._m(5),t._l(t.mesData,function(s,e){return a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[t._m(6,!0),a("view",{staticClass:"content shadow"},[t._v(t._s(s))])]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("13:23")])])}),t._m(7),t._l(t.chatData,function(s,e){return a("view",{style:[{bottom:t.InputBottom+100+"px"}]},[1==s.p?a("view",{},[a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[t._m(8,!0),a("view",{staticClass:"content shadow"},[t._v(t._s(s.content))])]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("13:23")])])]):t._e(),0==s.p?a("view",{},[a("view",{staticClass:"cu-item"},[a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big143004.jpg)"}}),a("view",{staticClass:"main"},[a("view",{staticClass:"content shadow"},[t._v(t._s(s.content))]),t._m(9,!0)]),a("view",{staticClass:"date"},[t._v("13:23")])])]):t._e()])})],2),a("view",{staticClass:"cu-bar foot input",style:[{bottom:t.InputBottom+"px"}]},[t._m(10),a("input",{directives:[{name:"model",rawName:"v-model",value:t.inputData,expression:"inputData"}],staticClass:"solid-bottom",attrs:{"adjust-position":!1,focus:!1,maxlength:"300","cursor-spacing":"10",eventid:"149eea06-0"},domProps:{value:t.inputData},on:{focus:t.InputFocus,blur:t.InputBlur,input:function(s){s.target.composing||(t.inputData=s.target.value)}}}),t._m(11),a("button",{staticClass:"cu-btn bg-green shadow",attrs:{eventid:"149eea06-1"},on:{click:t.sendMessage}},[t._v("发送")])],1)])},i=[function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[a("view",{staticClass:"content bg-green shadow"},[a("text",[t._v("喵喵喵！喵喵喵！喵喵喵！喵喵！喵喵！！喵！喵喵喵！")])])]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("2018年3月23日 13:23")])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-item"},[a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big143004.jpg)"}}),a("view",{staticClass:"main"},[a("view",{staticClass:"content shadow"},[a("text",[t._v("喵喵喵！喵喵喵！")])])]),a("view",{staticClass:"date "},[t._v("13:23")])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-info"},[a("text",{staticClass:"icon-roundclosefill text-red "}),t._v("对方拒绝了你的消息")])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-info"},[t._v("对方开启了好友验证，你还不是他(她)的好友。请先发送好友验证请求，对方验证通过后，才能聊天。"),a("text",{staticClass:"text-blue"},[t._v("发送好友验证")])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[a("image",{staticClass:"radius",attrs:{src:"https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg",mode:"widthFix"}})]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("13:23")])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-item self"},[a("view",{staticClass:"main"},[a("view",{staticClass:"action text-bold text-grey"},[t._v('3"')]),a("view",{staticClass:"content shadow"},[a("text",{staticClass:"icon-sound text-xxl padding-right-xl"})])]),a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg)"}}),a("view",{staticClass:"date"},[t._v("13:23")])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"action"},[a("text",{staticClass:"icon-locationfill text-orange text-xxl"})])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"cu-item"},[a("view",{staticClass:"cu-avatar radius",staticStyle:{"background-image":"url(https://ossweb-img.qq.com/images/lol/web201310/skin/big143004.jpg)"}}),a("view",{staticClass:"main"},[a("view",{staticClass:"content shadow"},[t._v("好友")]),a("view",{staticClass:"action text-grey"},[a("text",{staticClass:"icon-warnfill text-red text-xxl"}),a("text",{staticClass:"text-sm margin-left-sm"},[t._v("翻译错误")])])]),a("view",{staticClass:"date"},[t._v("13:23")])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"action"},[a("text",{staticClass:"icon-locationfill text-orange text-xxl"})])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"action text-grey"},[a("text",{staticClass:"icon-warnfill text-red text-xxl"}),a("text",{staticClass:"text-sm margin-left-sm"},[t._v("翻译错误")])])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"action"},[a("text",{staticClass:"icon-sound text-grey"})])},function(){var t=this,s=t.$createElement,a=t._self._c||s;return a("view",{staticClass:"action"},[a("text",{staticClass:"icon-emojifill text-grey"})])}];a.d(s,"a",function(){return e}),a.d(s,"b",function(){return i})},cc51:function(t,s,a){"use strict";a.r(s);var e=a("bc6d"),i=a.n(e);for(var c in e)"default"!==c&&function(t){a.d(s,t,function(){return e[t]})}(c);s["default"]=i.a},deda:function(t,s,a){}},[["349d","common/runtime","common/vendor"]]]);
 });
 require('pages/onechat/onechat.js');
 __wxRoute = 'pages/list/list';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/list/list.js';
