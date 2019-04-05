@@ -1,2 +1,0 @@
-<import src="./competition.vue.wxml" />
-    <template is="f72e1002" data="{{ ...$root['0'], $root }}"/>

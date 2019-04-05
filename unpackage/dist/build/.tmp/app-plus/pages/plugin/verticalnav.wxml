@@ -1,2 +1,0 @@
-<import src="./verticalnav.vue.wxml" />
-    <template is="17992481" data="{{ ...$root['0'], $root }}"/>
