@@ -1,13 +1,15 @@
 <template>
   <view>
-    <!-- <cmd-nav-bar back title="用户登录" rightText="注册" @rightText="fnRegisterWin" style="background-color: rgb(0, 122, 255); color: rgb(255, 255, 255);"></cmd-nav-bar> -->
-    <cmd-page-body type="top" style="margin-top: 0;">
+    <cmd-page-body type="top">
       <view class="login">
         <!-- 上部分 start -->
         <view class="login-title">{{ status ? '手机快捷登录': '使用账号密码登录'}}</view>
         <view class="login-explain">{{ status ? '已注册用户可通过手机验证码直接登录': '未注册用户可通过点击右上角进行注册'}}</view>
+				<view style="color: red;">{{errortest}}</view>
         <!-- 上部分 end -->
+				
         <!-- 手机表单登录 start -->
+				<!-- 网页端 -->
         <!-- #ifdef H5 -->
         <cmd-transition name="fade-up">
           <view v-if="status">
@@ -23,7 +25,9 @@
           </view>
         </cmd-transition>
         <!-- #endif -->
+				
         <!-- #ifndef H5 -->
+				<!-- 手机端 -->
         <cmd-transition name="fade-up" v-if="status">
           <view class="login-phone">
             <cmd-input v-model="mobile.phone" type="number" focus maxlength="11" placeholder="请输入手机号"></cmd-input>
@@ -37,8 +41,11 @@
         </cmd-transition>
         <!-- #endif -->
         <!-- 手机表单登录 end -->
+				
+				
         <!-- 账号表单登录 start -->
         <!-- #ifdef H5 -->
+				<!-- 网页端 -->
         <cmd-transition name="fade-up">
           <view v-if="!status">
             <view class="login-username">
@@ -52,7 +59,9 @@
           </view>
         </cmd-transition>
         <!-- #endif -->
+				
         <!-- #ifndef H5 -->
+				<!-- 手机端 -->
         <cmd-transition name="fade-up" v-if="!status">
           <view class="login-username">
             <cmd-input v-model="account.username" type="text" focus maxlength="26" placeholder="请输入账号"></cmd-input>
@@ -65,6 +74,7 @@
         </cmd-transition>
         <!-- #endif -->
         <!-- 账号表单登录 end -->
+				
         <!-- 切换登录方式 -->
         <view class="login-mode" @tap="fnChangeStatus(false)">{{status ?	'账号密码登录' : '手机快捷登录'}}</view>
       </view>
@@ -87,10 +97,11 @@
     },
     data() {
       return {
+				errortest: '',
         // 账号登录部分数据
         account: {
-          username: '',
-          password: ''
+          username: 'lgh23',
+          password: '123456'
         },
         usernameReg: /^[A-Za-z0-9]+$/,
         passwordReg: /^\w+$/,
@@ -108,9 +119,12 @@
           state: false,
           interval: ''
         },
-        status: true // true手机登录,false账号登录
+        status: true// true手机验证码登录,false账号登录
+				
       };
     },
+		onLoad() {
+		},
     watch: {
       /**
        * 监听手机登录数值
@@ -130,8 +144,8 @@
        */
       account: {
         handler(newValue) {
-          if ((this.usernameReg.test(newValue.username) && newValue.username.length >= 8) && (this.passwordReg.test(
-              newValue.password) && newValue.password.length >= 8)) {
+          if ((this.usernameReg.test(newValue.username) && newValue.username.length >= 5) && (this.passwordReg.test(
+              newValue.password) && newValue.password.length >= 5)) {
             this.loginAccount = true;
           } else {
             this.loginAccount = false
@@ -146,10 +160,57 @@
        */
       fnLogin() {
         if (this.status) {
-          console.log(JSON.stringify(this.mobile));
+					// 验证码登录
+          console.log('验证码登录:' + JSON.stringify(this.mobile));
+					uni.request({
+						url: "http://192.168.0.100:8762/sso/authentication/form?username=admin&password=789456123",
+						method: "POST",
+						data: JSON.stringify(this.mobile),
+						success(data) {
+							console.log(JSON.stringify(data))
+						},
+						fail(data) {
+							console.log(JSON.stringify(data))
+						}
+					})
         } else {
-          console.log(JSON.stringify(this.account));
+					// 账号密码登录
+          console.log('账号密码登录:' + JSON.stringify(this.account));
+					uni.request({
+						url: "http://192.168.0.100:8762/user/login?username="+this.account.username+"&password="+this.account.password+"&grant_type=password",
+						method: "POST",
+						success(result) {
+							console.log(JSON.stringify(result.data))
+							if (result.data.code == "000") {
+								uni.setStorage({
+									key: "loginbz",
+									data: true
+								})
+								uni.setStorage({
+									key: "user",
+									data: result.data.data.user
+								})
+								uni.setStorage({
+									key: "token",
+									data: result.data.data.token
+								})
+								// 返回个人中心页面
+								uni.navigateBack()
+							} else {
+								uni.showToast({
+									title: "账号或密码错误"
+								})
+							}
+						},
+						fail(result) {
+							console.log(JSON.stringify(data))
+							uni.showToast({
+								title: "账号或密码错误"
+							})
+						}
+					})
         }
+				
       },
       /**
        * 获取验证码

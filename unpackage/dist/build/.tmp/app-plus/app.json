@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/usercenter/usercenter",
+    "pages/competition/competition",
+    "pages/message/message",
+    "pages/activity/activity",
+    "pages/login/login",
+    "pages/user/login/login",
+    "pages/user/register/register",
+    "pages/user/modify/modify",
+    "pages/user/forgot/forgot",
+    "pages/user/info/info",
+    "pages/plugin/indexes",
+    "pages/plugin/animation",
+    "pages/plugin/drawer",
+    "pages/plugin/verticalnav",
+    "pages/onechat/onechat",
+    "pages/usercenter/userinfo/userinfo",
+    "pages/usercenter/account/account",
+    "pages/usercenter/help/help",
+    "pages/usercenter/service/service",
+    "pages/usercenter/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "white"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#2F85FC",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/news.png",
+        "selectedIconPath": "static/news-active.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/competition/competition",
+        "iconPath": "static/competition.png",
+        "selectedIconPath": "static/competition-active.png",
+        "text": "赛程"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "iconPath": "static/activity.png",
+        "selectedIconPath": "static/activity-active.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/message.png",
+        "selectedIconPath": "static/message-active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/usercenter/usercenter",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "足球社区"
+}

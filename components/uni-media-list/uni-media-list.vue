@@ -17,9 +17,6 @@
                         <text class="info-text">{{data.comment_count}}条评论</text>
                         <text class="info-text">{{data.datetime}}</text>
                     </view>
-                    <view class="max-close-view" @click.stop="close">
-                        <view class="close-view"><text class="close">×</text></view>
-                    </view>
                 </view>
             </view>
         </view>

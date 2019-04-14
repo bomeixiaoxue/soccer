@@ -21,7 +21,16 @@
         {
             "path":"pages/competition/competition",
             "style":{
-                "navigationBarTitleText":"赛程"
+                "navigationBarTitleText":"赛程",
+				"app-plus":{
+				    "titleNView":{
+				        "buttons":[
+				            {
+				                "type":"menu"
+				            }
+				        ]
+				    }
+				}
             }
         },
         {
@@ -42,7 +51,10 @@
         {
             "path":"pages/activity/activity",
             "style":{
-                "navigationBarTitleText":"动态"
+                "navigationBarTitleText":"动态",
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+                "backgroundTextStyle": "dark"  //下拉 loading 的样式，仅支持 dark/light
+
             }
         },
         {
@@ -121,6 +133,40 @@
             "style":{
 
             }
+        }
+        ,{
+            "path" : "pages/usercenter/userinfo/userinfo",
+            "style" : {
+				"navigationBarTitleText":"个人资料"
+			}
+        }
+        ,{
+            "path" : "pages/usercenter/account/account",
+            "style" : {
+				"navigationBarTitleText":"账号管理"
+			}
+        }
+        ,{
+            "path" : "pages/usercenter/help/help",
+            "style" : {
+				"navigationBarTitleText":"帮助与反馈"
+			}
+        }
+        ,{
+            "path" : "pages/usercenter/service/service",
+            "style" : {
+				"navigationBarTitleText":"服务条款与隐私"
+			}
+        }
+        ,{
+            "path" : "pages/usercenter/about/about",
+            "style" : {
+				"navigationBarTitleText":"关于应用"
+			}
+        }
+        ,{
+            "path" : "pages/activity/activitydetail/activitydetail",
+            "style" : {}
         }
     ],
     "tabBar":{

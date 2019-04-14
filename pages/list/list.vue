@@ -8,26 +8,25 @@
 		<swiper :current="tabIndex" class="swiper-box" duration="300" @change="changeTab">
 			<swiper-item v-for="(tabItem, tabIndex) in newsList" :key="tabIndex">
 				<scroll-view class="list" scroll-y @scrolltolower="loadMore(tabIndex)">
-					 <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
-					    <swiper-item>
+					 <!-- <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
+					    <swiper-item >
 					        <view class="swiper-item">
-								<cover-image src="../../static/1234.jpg"></cover-image>
+								<cover-image src="https://inews.gtimg.com/newsapp_bt/0/8531271449/641"></cover-image>
 							</view>
 					    </swiper-item>
 					    <swiper-item>
 					        <view class="swiper-item">
-								<cover-image src="../../static/test.jpg"></cover-image>
+								<cover-image src="https://inews.gtimg.com/newsapp_bt/0/8531271449/641"></cover-image>
 							</view>
 					    </swiper-item>
 					    <swiper-item>
 					        <view class="swiper-item">
-								<cover-image src="../../static/1234.jpg"></cover-image>
+								<cover-image src="https://inews.gtimg.com/newsapp_bt/0/8531271449/641"></cover-image>
 							</view>
 					    </swiper-item>
-					</swiper>
-					
+					</swiper> -->
 					<block v-for="(newsItem, newsIndex) in tabItem.data" :key="newsIndex">
-						<uni-media-list :data="newsItem" @close="dislike(tabIndex, newsIndex)" @click="goDetail(newsItem)"></uni-media-list>
+						<uni-media-list :data="newsItem" @click="goDetail(newsItem)"></uni-media-list>
 					</block>
 					<view class="uni-tab-bar-loading">
 						<uni-load-more :loadingType="tabItem.loadingText" :contentText="loadingText"></uni-load-more>
@@ -69,30 +68,36 @@
 				newsList: [],
 				tabIndex: 0,
 				tabBars: [{
-					name: '中超',
+					name: '国足',
 					id: 0,
 					ref: 'new'
 				}, {
-					name: '欧冠',
+					name: '中超',
 					id: 23,
 					ref: 'company'
 				}, {
-					name: '亚冠',
-					id: 223,
-					ref: 'content'
-				}, {
-					name: '英超',
+					name: '欧冠',
 					id: 221,
 					ref: 'xiaofei'
 				}, {
-					name: '西甲',
+					name: '英超',
 					id: 225,
 					ref: 'yule'
 				}, {
-					name: '意甲',
+					name: '西甲',
 					id: 208,
 					ref: 'qukuailian'
-				}, ]
+				}],
+				page: 1,
+				url: 'https://interface.sina.cn/wap_api/layout_col.d.json?showcid=192611&col=57300%2C185953&level=1%2C2%2C3&show_num=20&act=more&jsoncallback=callbackFunction',
+				newsUrl: {
+					"国足": "https://interface.sina.cn/wap_api/layout_col.d.json?showcid=192611&col=57300%2C185953&level=1%2C2%2C3&show_num=20&act=more&jsoncallback=callbackFunction",
+					"中超": "https://interface.sina.cn/wap_api/layout_col.d.json?showcid=72134&col=57300%2C72134%2C200434%2C192611%2C185953&level=1%2C2%2C3&show_num=20&act=more&jsoncallback=callbackFunction",
+					"欧冠": "https://interface.sina.cn/wap_api/col_data.d.html?col=72428&level=&show_num=20&act=more&jsoncallback=callbackFunction",
+					"英超": "https://interface.sina.cn/wap_api/layout_col.d.json?showcid=192598&col=72264&level=1%2C2%2C3&show_num=20&act=more&jsoncallback=callbackFunction",
+					"西甲": "https://interface.sina.cn/wap_api/layout_col.d.json?showcid=192603&col=40754%2C72311%2C72312%2C72313%2C72314%2C72315%2C192603&level=1%2C2%2C3&show_num=20&act=more&jsoncallback=callbackFunction"
+				},
+				newsData: {}
 			}
 		},
 		onLoad: function() {
@@ -109,7 +114,7 @@
 					loadingText: '加载中...'
 				});
 			});
-			this.getList();
+            this.getList();
 		},
 		methods: {
 			changeIndicatorDots(e) {
@@ -131,32 +136,34 @@
 					activeTab.requestParams.minId = 0;
 				}
 				uni.request({
-					url: 'https://unidemo.dcloud.net.cn/api/news',
-					data: activeTab.requestParams,
+					url: this.url + '&page=' + this.page,
+					async: true,
+					dataType: "jsonp",
 					success: (result) => {
-						if (result.statusCode == 200) {
-							const data = result.data.map((news) => {
-								return {
-									id: news.id,
-									article_type: 1,
-									datetime: friendlyDate(new Date(news.published_at.replace(/\-/g, '/')).getTime()),
-									title: news.title,
-									image_url: news.cover,
-									source: news.author_name,
-									comment_count: news.comments_count,
-									post_id: news.post_id
-								};
+						this.newsData = eval("(" + result.data.replace("callbackFunction(", "").replace("}})", "}}") + ")").result.data
+						console.log(JSON.stringify(this.newsData.list))
+						const data = this.newsData.list.map((news) => {
+							return {
+								id: news._id,
+								article_type: 1,
+								datetime: friendlyDate(new Date(news.cdateTime).getTime()),
+								title: news.title,
+								image_url: news.allPics.pics[0]?news.allPics.pics[0].imgurl:'../../static/1234.jpg',
+								source: news.source.replace("新浪", "好玩"),
+								comment_count: news.comment,
+								post_id: news.news_id,
+								url: news.URL
+							};
+						});
+						if (action === 1) {
+							activeTab.data = data;
+							this.refreshing = false;
+						} else {
+							data.forEach((news) => {
+								activeTab.data.push(news);
 							});
-							if (action === 1) {
-								activeTab.data = data;
-								this.refreshing = false;
-							} else {
-								data.forEach((news) => {
-									activeTab.data.push(news);
-								});
-							}
-							activeTab.requestParams.minId = data[data.length - 1].id;
 						}
+						// activeTab.requestParams.minId = data[data.length - 1].id;
 					}
 				});
 			},
@@ -165,17 +172,8 @@
 					url: '/pages/detail/detail?query=' + encodeURIComponent(JSON.stringify(detail))
 				});
 			},
-			dislike(tabIndex, newsIndex) {
-				uni.showModal({
-					content: '不感兴趣？',
-					success: (res) => {
-						if (res.confirm) {
-							this.newsList[tabIndex].data.splice(newsIndex, 1);
-						}
-					}
-				})
-			},
 			loadMore() {
+				this.page++
 				this.getList(2);
 			},
 			async changeTab(event) {
@@ -208,7 +206,31 @@
 				// 首次切换后加载数据
 				const activeTab = this.newsList[this.tabIndex];
 				if (activeTab.data.length === 0) {
-					this.getList();
+					this.page = 1
+					switch (index){
+						case 0:
+							this.url = this.newsUrl['国足']
+							this.getList();
+							break;
+						case 1:
+							 this.url = this.newsUrl['中超']
+							 this.getList();
+							break;
+						case 2:
+							this.url = this.newsUrl['欧冠']
+							this.getList();
+							break;
+						case 3:
+							 this.url = this.newsUrl['英超']
+							 this.getList();
+							break;
+						case 4:
+							 this.url = this.newsUrl['西甲']
+							 this.getList();
+							break;
+						default:
+							break;
+					}
 				}
 			},
 			getNodeSize(node) {
@@ -245,10 +267,35 @@
 					// 首次切换后加载数据
 					const activeTab = this.newsList[this.tabIndex];
 					if (activeTab.data.length === 0) {
-						this.getList();
+						console.log('选项卡：' + index)
+						this.page = 1
+						switch (index){
+							case 0:
+								this.url = this.newsUrl['国足']
+								this.getList();
+								break;
+							case 1:
+								 this.url = this.newsUrl['中超']
+								 this.getList();
+								break;
+							case 2:
+								this.url = this.newsUrl['欧冠']
+								this.getList();
+								break;
+							case 3:
+								 this.url = this.newsUrl['英超']
+								 this.getList();
+								break;
+							case 4:
+								 this.url = this.newsUrl['西甲']
+								 this.getList();
+								break;
+							default:
+								break;
+						}
 					}
 				}
-			},
+			}
 		}
 	}
 </script>
@@ -306,4 +353,5 @@
 	.uni-padding-wrap .page-section{
 		width: 100%;
 	}
+	
 </style>

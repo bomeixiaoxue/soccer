@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view class="cu-bar bg-white search fixed" :style="[{top:44 + 'px'}]">
+		<view class="cu-bar bg-white search fixed">
 			<view class="search-form round">
 				<text class="icon-search"></text>
 				<input type="text" placeholder="输入搜索的关键词" confirm-type="search"></input>
@@ -44,7 +44,20 @@
 	import "../../colorui/main.css"
 	import "../../colorui/icon.css"
 	
+	import {
+		getDate,
+		getUserInfo,
+		getToken,
+		setUserInfo
+	} from '@/common/util.js';
+	
 	export default {
+		components: {
+			getDate,
+			getUserInfo,
+			getToken,
+			setUserInfo
+		},
 		data() {
 			return {
 				StatusBar: this.StatusBar,
@@ -53,9 +66,10 @@
 				listCurID: '',
 				list: [],
 				listCur: '',
+				ID: {}
 			};
 		},
-		onLoad() {
+		onLoad(event) {
 			let list = [{}];
 			for (let i = 0; i < 26; i++) {
 				list[i] = {};
@@ -63,6 +77,11 @@
 			}
 			this.list = list;
 			this.listCur = list[0];
+			
+			
+			this.ID = event.ID;
+			console.log('用户信息：' + JSON.stringify(this.ID))
+			this.getFriends();
 		},
 		onReady() {
 			let that = this;
@@ -117,6 +136,21 @@
 						return false
 					}
 				}
+			},
+			getFriends() {
+				uni.request({
+					url: this.ChatUrl + '/chat/getFriends?id=' + this.ID,
+					header: {
+						"Authorization" : "Bearer " + getToken()
+					},
+					success: (result) => {
+						console.log('成功：' + JSON.stringify(result))
+						if (result.statusCode == 200) {
+							// this.activityData = result.data.data.activityVos;
+							// console.log('成功：' + JSON.stringify(this.activityData))
+						}
+					}
+				});
 			}
 		}
 	}

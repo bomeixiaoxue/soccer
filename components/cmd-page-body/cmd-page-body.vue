@@ -130,7 +130,7 @@
     }
 
     &-top {
-      margin-top: 88upx;
+      margin-top: 0;
       top: var(--status-bar-height);
     }
   }

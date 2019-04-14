@@ -2,18 +2,17 @@
 	<view>
 		<scroll-view :scroll-y="modalName==null" class="page" :class="modalName!=null?'show':''">
 			<view class="cu-list menu-avatar">
-				<view class="cu-item" :class="modalName=='move-box-'+ index?'move-cur':''" v-for="(item,index) in 4" :key="index"
+				<view class="cu-item" :class="modalName=='move-box-'+ index?'move-cur':''" v-for="(item,index) in messageData" :key="index"
 				 @touchstart="ListTouchStart" @touchmove="ListTouchMove" @touchend="ListTouchEnd" @click="InterChat" :data-target="'move-box-' + index">
 					<view class="cu-avatar round lg" :style="[{backgroundImage:'url(https://ossweb-img.qq.com/images/lol/web201310/skin/big2100'+ (index+2) +'.jpg)'}]">
-						<view class="cu-tag badge">99+</view>
+						<view class="cu-tag badge">{{item.count}}</view>
 					</view>
 					<view class="content">
-						<view class="text-pink"><text class="text-cut">莫甘娜</text></view>
-						<view class="text-gray text-sm flex"> <text class="text-cut">凯尔，你被自己的光芒变的盲目！</text></view>
+						<view class="text-black"><text class="text-cut">{{item.name}}</text></view>
+						<view class="text-gray text-sm flex"> <text class="text-cut">{{item.msg}}</text></view>
 					</view>
 					<view class="action">
-						<view class="text-grey text-xs">22:20</view>
-						<view class="cu-tag round bg-grey sm">{{index+1}}</view>
+						<view class="text-grey text-xs">{{item.time}}</view>
 					</view>
 					<view class="move">
 						<view class="bg-grey">置顶</view>
@@ -30,7 +29,20 @@
 	import "../../colorui/main.css"
 	import "../../colorui/icon.css"
 	
+	import {
+		getDate,
+		getUserInfo,
+		getToken,
+		setUserInfo
+	} from '@/common/util.js';
+	
 	export default {
+		components: {
+			getDate,
+			getUserInfo,
+			getToken,
+			setUserInfo
+		},
 		data() {
 			return {
 				iconList: [{
@@ -93,7 +105,17 @@
 				skin: false,
 				listTouchStart: 0,
 				listTouchDirection: null,
+				messageData: [
+					{"id":"1234","name":"娜娜","msg":"在吗？","time":"23:20","count":10},
+					{"id":"1235","name":"芳芳","msg":"吃饭没有？","time":"22:20","count":4},
+					{"id":"1236","name":"小明","msg":"最近怎么样？","time":"20:20","count":5}
+				],
+				userInfo: {}
 			};
+		},
+		onLoad() {
+			this.userInfo = getUserInfo();
+			console.log('用户信息：' + JSON.stringify(this.userInfo))
 		},
 		methods: {
 			showModal(e) {
@@ -149,7 +171,7 @@
 		},
 		onNavigationBarButtonTap(e) {
 			uni.navigateTo({
-				url: "../plugin/indexes"
+				url: "../plugin/indexes?ID="+this.userInfo.ID
 			})
 		}
 	}

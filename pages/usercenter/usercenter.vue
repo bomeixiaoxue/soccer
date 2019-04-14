@@ -1,42 +1,52 @@
 <template>
 	<view class="center">
 		<view class="logo" @click="goLogin" :hover-class="!login ? 'logo-hover' : ''" style="background-color: rgb(0, 122, 255); color: rgb(255, 255, 255);">
-			<image class="logo-img" :src="login ? uerInfo.avatarUrl :avatarUrl"></image>
+			<image class="logo-img" :src="login ? uerInfo.headPortrait :avatarUrl"></image>
 			<view class="logo-title" @click="goLogin()">
-				<text class="uer-name">Hi，{{login ? uerInfo.name : '您未登录'}}</text>
+				<text class="uer-name">{{login ? uerInfo.nickName: 'Hi，您未登录'}}</text>
 				<text class="go-login navigat-arrow" v-if="!login">&#xe65e;</text>
 			</view>
 		</view>
 		<view class="center-list">
-			<view class="center-list-item border-bottom">
-				<text class="list-icon">&#xe60f;</text>
-				<text class="list-text">账号管理</text>
-				<text class="navigat-arrow">&#xe65e;</text>
-			</view>
+			<navigator url="/pages/usercenter/account/account" hover-class="navigator-hover">
+                <view class="center-list-item border-bottom">
+                   	<text class="list-icon">&#xe60f;</text>
+                   	<text class="list-text">账号管理</text>
+                   	<text class="navigat-arrow">&#xe65e;</text>
+                </view>
+            </navigator>
+			<navigator url="/pages/usercenter/userinfo/userinfo" hover-class="navigator-hover">
 			<view class="center-list-item">
 				<text class="list-icon">&#xe639;</text>
-				<text class="list-text">新消息通知</text>
+				<text class="list-text">个人资料</text>
 				<text class="navigat-arrow">&#xe65e;</text>
 			</view>
+			 </navigator>
 		</view>
 		<view class="center-list">
+			<navigator url="/pages/usercenter/help/help" hover-class="navigator-hover">
 			<view class="center-list-item border-bottom">
 				<text class="list-icon">&#xe60b;</text>
 				<text class="list-text">帮助与反馈</text>
 				<text class="navigat-arrow">&#xe65e;</text>
 			</view>
+			 </navigator>
+			<navigator url="/pages/usercenter/service/service" hover-class="navigator-hover">
 			<view class="center-list-item">
 				<text class="list-icon">&#xe65f;</text>
 				<text class="list-text">服务条款及隐私</text>
 				<text class="navigat-arrow">&#xe65e;</text>
 			</view>
+			 </navigator>
 		</view>
 		<view class="center-list">
+			<navigator url="/pages/usercenter/about/about" hover-class="navigator-hover">
 			<view class="center-list-item">
 				<text class="list-icon">&#xe614;</text>
 				<text class="list-text">关于应用</text>
 				<text class="navigat-arrow">&#xe65e;</text>
 			</view>
+			 </navigator>
 		</view>
 	</view>
 </template>
@@ -48,6 +58,32 @@
 				login: false,
 				avatarUrl: '/static/logo.png',
 				uerInfo: {}
+			}
+		},
+		onLoad() {
+			var loginbz = false;
+			uni.getStorage({
+				key: "loginbz",
+				success(res) {
+					console.log('登录标志：' + JSON.stringify(res.data))
+					loginbz = res.data;
+				}
+			})
+			this.login = loginbz;
+			if (loginbz) {
+				// 已经登录
+				var user = {};
+				uni.getStorage({
+					key: "user",
+					success(res) {
+						console.log('用户信息：' + JSON.stringify(res.data))
+						user = res.data;
+					}
+				})
+				console.log('已经登录成功：'+ JSON.stringify(user))
+				this.uerInfo = user
+			}else {
+				console.log('用户未登录')
 			}
 		},
 		methods: {

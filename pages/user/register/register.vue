@@ -18,6 +18,9 @@
             <view class="register-code">
               <cmd-input v-model="mobile.code" type="number" maxlength="6" placeholder="请输入短信验证码"></cmd-input>
             </view>
+						<view class="register-password">
+						  <cmd-input v-model="account.password" :style="'margin-top: 16px;'" type="password" displayable maxlength="26" placeholder="请输入密码"></cmd-input>
+						</view>
             <button class="btn-register" :class="registerMobile ? 'btn-register-active':''" :disabled="!registerMobile"
               hover-class="btn-register-hover" @tap="fnRegister">注册</button>
           </view>
@@ -32,6 +35,9 @@
           <view class="register-code">
             <cmd-input v-model="mobile.code" type="number" maxlength="6" placeholder="请输入短信验证码"></cmd-input>
           </view>
+					<view class="register-password">
+					  <cmd-input v-model="account.password" :style="'margin-top: 16px;'" type="password" displayable maxlength="26" placeholder="请输入密码"></cmd-input>
+					</view>
           <button class="btn-register" :class="registerMobile ? 'btn-register-active':''" :disabled="!registerMobile"
             hover-class="btn-register-hover" @tap="fnRegister">注册</button>
         </cmd-transition>
@@ -58,7 +64,7 @@
             <cmd-input v-model="account.username" type="text" focus maxlength="26" placeholder="请输入账号"></cmd-input>
           </view>
           <view class="register-password">
-            <cmd-input v-model="account.password" type="password" displayable maxlength="26" placeholder="请输入密码"></cmd-input>
+            <cmd-input v-model="account.password" style="margin-top: 16px;" type="password" displayable maxlength="26" placeholder="请输入密码"></cmd-input>
           </view>
           <button class="btn-register" :class="registerAccount ? 'btn-register-active':''" :disabled="!registerAccount"
             hover-class="btn-register-hover" @tap="fnRegister">注册</button>
@@ -66,7 +72,7 @@
         <!-- #endif -->
         <!-- 账号表单注册 end -->
         <!-- 切换注册方式 -->
-        <view class="register-mode" @tap="fnChangeStatus">{{status ?	'账号密码注册' : '手机快捷注册'}}</view>
+        <!-- <view class="register-mode" @tap="fnChangeStatus">{{status ?	'账号密码注册' : '手机快捷注册'}}</view> -->
       </view>
     </cmd-page-body>
   </view>
@@ -260,6 +266,7 @@
 
     &-password {
       border-bottom: 2upx #dedede solid;
+			margin-top: 16px;
     }
 
 

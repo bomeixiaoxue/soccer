@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="bg-white">
 		<view class="banner">
 			<image class="banner-img" :src="banner.image_url"></image>
 			<view class="banner-title">{{banner.title}}</view>
@@ -9,25 +9,43 @@
 			<text class="article-text">发表于</text>
 			<text class="article-time">{{banner.datetime}}</text>
 		</view>
+		<view>{{result}}</view>
 		<view class="article-content">
-			<rich-text :nodes="content"></rich-text>
+			<view v-for="(item, index) in content" :key="index">
+				<view class="uni-common-mt" style="padding:20upx;">
+					<rich-text :nodes="item"></rich-text>
+				</view>
+			</view>
 		</view>
 	</view>
 </template>
 
 <script>
 	const FAIL_CONTENT = '<p>获取信息失败</p>';
+	
 	export default {
 		data() {
 			return {
+				result: '',
 				banner: {},
-				content: ''
+				content: [],
+				title: 'rich-text',
+				nodes: [{
+					name: 'div',
+					attrs: {
+						class: 'div-class',
+						style: 'line-height: 60px; color: red; text-align:center;'
+					},
+					children: [{
+						type: 'text',
+						text: 'kkkkk'
+					}]
+				}]
 			}
 		},
 		onShareAppMessage() {
 			return {
-				title: this.banner.title,
-				path: '/pages/detail/detail?query=' + JSON.stringify(this.banner)
+				title: this.banner.title
 			}
 		},
 		onLoad(event) {
@@ -37,6 +55,7 @@
 			} catch (error) {
 				this.banner = JSON.parse(event.query);
 			}
+			// this.nodes[0].children[0].text = "林广豪"
 
 			this.getDetail();
 			uni.setNavigationBarTitle({
@@ -46,13 +65,22 @@
 		methods: {
 			getDetail() {
 				uni.request({
-					url: 'https://unidemo.dcloud.net.cn/api/news/36kr/' + this.banner.post_id,
+					url: this.banner.url,
+					async: false,
 					success: (result) => {
 						if (result.statusCode == 200) {
-							this.content = result.data.content;
+							var parser = new DOMParser();
+							var htmlDoc = parser.parseFromString(result.data, "text/html")
+							var art_ps = htmlDoc.getElementsByClassName('art_p');
+							for (var i = 0; i < art_ps.length; i++) {
+								this.content[i] = art_ps[i].innerHTML
+								// 不知道干嘛一定要设置一个模型，content才能生效
+								this.result = ' '
+							}
 						} else {
 							this.content = FAIL_CONTENT;
 						}
+						console.log('获取新闻详情结果：' + JSON.stringify(result))
 					}
 				});
 			}

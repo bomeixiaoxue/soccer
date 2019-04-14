@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"足球社区","entryPagePath":"pages/list/list.html","page":{"pages/list/list.html":{"window":{"navigationBarTitleText":"资讯"}},"pages/detail/detail.html":{"window":{"navigationBarTitleText":"详情"}},"pages/usercenter/usercenter.html":{"window":{"navigationBarTitleText":"个人中心"}},"pages/competition/competition.html":{"window":{"navigationBarTitleText":"赛程","titleNView":{"buttons":[{"type":"menu"}]}}},"pages/message/message.html":{"window":{"navigationBarTitleText":"消息","titleNView":{"buttons":[{"type":"menu"}]}}},"pages/activity/activity.html":{"window":{"navigationBarTitleText":"动态","enablePullDownRefresh":true,"backgroundTextStyle":"dark"}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登录"}},"pages/user/login/login.html":{"window":{"navigationBarTitleText":"登录","titleNView":{"buttons":[{"text":"注册","fontSize":"16px","fontWeight":"bold"}]}}},"pages/user/register/register.html":{"window":{"navigationBarTitleText":"注册"}},"pages/user/modify/modify.html":{"window":{"navigationBarTitleText":"密码修改"}},"pages/user/forgot/forgot.html":{"window":{"navigationBarTitleText":"忘记密码"}},"pages/user/info/info.html":{"window":{"navigationBarTitleText":"信息设置"}},"pages/plugin/indexes.html":{"window":{"navigationBarTitleText":"好友"}},"pages/plugin/animation.html":{"window":{"navigationBarTitleText":""}},"pages/plugin/drawer.html":{"window":{"navigationBarTitleText":""}},"pages/plugin/verticalnav.html":{"window":{"navigationBarTitleText":""}},"pages/onechat/onechat.html":{"window":{}},"pages/usercenter/userinfo/userinfo.html":{"window":{"navigationBarTitleText":"个人资料"}},"pages/usercenter/account/account.html":{"window":{"navigationBarTitleText":"账号管理"}},"pages/usercenter/help/help.html":{"window":{"navigationBarTitleText":"帮助与反馈"}},"pages/usercenter/service/service.html":{"window":{"navigationBarTitleText":"服务条款与隐私"}},"pages/usercenter/about/about.html":{"window":{"navigationBarTitleText":"关于应用"}},"pages/activity/activitydetail/activitydetail.html":{"window":{}}},"global":{"window":{"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#007AFF","backgroundColor":"white"}},"tabBar":{"color":"#000000","selectedColor":"#2F85FC","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/list/list.html","iconPath":"static/news.png","selectedIconPath":"static/news-active.png","text":"资讯"},{"pagePath":"pages/competition/competition.html","iconPath":"static/competition.png","selectedIconPath":"static/competition-active.png","text":"赛程"},{"pagePath":"pages/activity/activity.html","iconPath":"static/activity.png","selectedIconPath":"static/activity-active.png","text":"动态"},{"pagePath":"pages/message/message.html","iconPath":"static/message.png","selectedIconPath":"static/message-active.png","text":"消息"},{"pagePath":"pages/usercenter/usercenter.html","iconPath":"static/user.png","selectedIconPath":"static/user-active.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/list/list","pages/detail/detail","pages/usercenter/usercenter","pages/competition/competition","pages/message/message","pages/activity/activity","pages/login/login","pages/user/login/login","pages/user/register/register","pages/user/modify/modify","pages/user/forgot/forgot","pages/user/info/info","pages/plugin/indexes","pages/plugin/animation","pages/plugin/drawer","pages/plugin/verticalnav","pages/onechat/onechat","pages/usercenter/userinfo/userinfo","pages/usercenter/account/account","pages/usercenter/help/help","pages/usercenter/service/service","pages/usercenter/about/about","pages/activity/activitydetail/activitydetail"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

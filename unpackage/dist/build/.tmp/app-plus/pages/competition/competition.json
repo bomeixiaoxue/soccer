@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "赛程",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  }
+}

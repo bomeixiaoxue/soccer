@@ -1,138 +1,32 @@
 <template>
 	<view>
-		<view class="cu-card dynamic" :class="isCard?'no-card':''">
+		<view class="cu-card dynamic" :class="'no-card'" v-for="(item, index) in activityData" :key="index">
 			<view class="cu-item shadow">
 				<view class="cu-list menu-avatar">
 					<view class="cu-item">
-						<view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
+						<view class="cu-avatar round lg" :style="'background-image:url('+ item.userEntity.headPortrait +')'" ></view>
 						<view class="content flex-sub">
-							<view>凯尔</view>
+							<view>{{item.userEntity.nickName}}</view>
 							<view class="text-gray text-sm flex justify-between">
-								2019年12月3日
+								{{ item.activityEntity.startTime }}
 							</view>
 						</view>
 					</view>
 				</view>
-				<view class="text-content">
-					折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！
+				<view class="text-content" @click="onDetail(index)">
+					{{item.activityEntity.activityContent}}
 				</view>
-				<view class="grid flex-sub padding-lr" :class="isCard?'col-3 grid-square':'col-1'">
-					<view class="bg-img" :class="isCard?'':'only-img'" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"
-					 v-for="(item,index) in isCard?9:1" :key="index">
-					</view>
+				<view class="grid flex-sub padding-lr" :class="'col-3 grid-square'">
+					<view class="bg-img" @tap="ViewImage(item.activityEntity.coverPhoto)" :style="'background-image:url('+ item.activityEntity.coverPhoto +')'" ></view>
 				</view>
 				<view class="text-gray text-sm text-right padding">
-					<text class="icon-attentionfill margin-lr-xs" @click="onBrowse()"></text> {{browse}} 
-					<text class="icon-appreciatefill margin-lr-xs" @click="onLike()"></text> {{like}} 
-					<text class="icon-messagefill margin-lr-xs" @click="onComment()"></text> {{comment}} 
-				</view>
-
-				<view class="cu-list menu-avatar comment solids-top">
-					<view class="cu-item">
-						<view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
-						<view class="content">
-							<view class="text-grey">莫甘娜</view>
-							<view class="text-gray text-content text-df">
-								凯尔，你被自己的光芒变的盲目。
-							</view>
-							<view class="margin-top-sm justify-between text-left">
-								<view class="text-gray text-df">2018/12/4</view>
-							</view>
-						</view>
-					</view>
-
-					<view class="cu-item">
-						<view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
-						<view class="content">
-							<view class="text-grey">凯尔</view>
-							<view class="text-gray text-content text-df">
-								妹妹，如果不是为了飞翔，我们要这翅膀有什么用?
-							</view>
-							<view class="margin-top-sm flex justify-between">
-								<view class="text-gray text-df">2018/12/4</view>
-							</view>
-						</view>
-					</view>
+					<text class="icon-attentionfill margin-lr-xs"></text> {{item.activityEntity.browseCount}} 
+					<text class="icon-appreciatefill margin-lr-xs" @click="onLike(index)"></text> {{item.activityEntity.dianZanCount}} 
+					<text class="icon-messagefill margin-lr-xs"></text> {{item.activityEntity.commentCount}} 
 				</view>
 			</view>
 		</view>
-		
-		<view class="cu-card dynamic" :class="isCard?'no-card':''">
-			<view class="cu-item shadow">
-				<view class="cu-list menu-avatar">
-					<view class="cu-item">
-						<view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
-						<view class="content flex-sub">
-							<view>凯尔</view>
-							<view class="text-gray text-sm flex justify-between">
-								2019年12月3日
-							</view>
-						</view>
-					</view>
-				</view>
-				<view class="text-content">
-					折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！
-				</view>
-				<view class="grid flex-sub padding-lr" :class="isCard?'col-3 grid-square':'col-1'">
-					<view class="bg-img" :class="isCard?'':'only-img'" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"
-					 v-for="(item,index) in isCard?9:1" :key="index">
-					</view>
-				</view>
-				<view class="text-gray text-sm text-right padding">
-					<text class="icon-attentionfill margin-lr-xs" @click="onBrowse()"></text> {{browse}}
-					<text class="icon-appreciatefill margin-lr-xs" @click="onLike()"></text> {{like}}
-					<text class="icon-messagefill margin-lr-xs" @click="onComment()"></text> {{comment}}
-				</view>
-		
-				<view class="cu-list menu-avatar comment solids-top">
-					<view class="cu-item">
-						<view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
-						<view class="content">
-							<view class="text-grey">莫甘娜</view>
-							<view class="text-gray text-content text-df">
-								凯尔，你被自己的光芒变的盲目。
-							</view>
-							<view class="bg-grey padding-sm radius margin-top-sm  text-sm">
-								<view class="flex">
-									<view>凯尔：</view>
-									<view class="flex-sub">妹妹，你在帮他们给黑暗找借口吗?</view>
-								</view>
-							</view>
-							<view class="margin-top-sm flex justify-between">
-								<view class="text-gray text-df">2018年12月4日</view>
-								<view>
-									<text class="icon-appreciatefill text-red"></text>
-									<text class="icon-messagefill text-gray margin-left-sm"></text>
-								</view>
-							</view>
-						</view>
-					</view>
-		
-					<view class="cu-item">
-						<view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
-						<view class="content">
-							<view class="text-grey">凯尔</view>
-							<view class="text-gray text-content text-df">
-								妹妹，如果不是为了飞翔，我们要这翅膀有什么用?
-							</view>
-							<view class="bg-grey padding-sm radius margin-top-sm  text-sm">
-								<view class="flex">
-									<view>莫甘娜：</view>
-									<view class="flex-sub">如果不能立足于大地，要这双脚又有何用?</view>
-								</view>
-							</view>
-							<view class="margin-top-sm flex justify-between">
-								<view class="text-gray text-df">2018年12月4日</view>
-								<view>
-									<text class="icon-appreciate text-gray"></text>
-									<text class="icon-messagefill text-gray margin-left-sm"></text>
-								</view>
-							</view>
-						</view>
-					</view>
-				</view>
-			</view>
-		</view>
+		<view class="">{{activityData.activityVos}}</view>
 	</view>
 </template>
 
@@ -140,28 +34,70 @@
 	import "../../colorui/main.css"
 	import "../../colorui/icon.css"
 	
+	import {
+		getDate,
+		getUserInfo,
+		getToken,
+		setUserInfo
+	} from '@/common/util.js';
+	
 	export default {
+		components: {
+			getDate,
+			getUserInfo,
+			getToken,
+			setUserInfo
+		},
 		data() {
 			return {
-				isCard: true,
 				browse: 10,
 				like: 20,
-				comment: 30
-				
+				comment: 30,
+				activityData: [],
+				test: ''
 			};
+		},
+		onLoad: function() {
+			this.getDate();
+		},
+		onPullDownRefresh() {
+			console.log('用户刷新')
+			this.getDate()
+			setTimeout(function () {
+				uni.stopPullDownRefresh();  //停止下拉刷新动画
+			}, 1000);
 		},
 		methods: {
 			IsCard(e) {
 				this.isCard = e.detail.value
 			},
-			onBrowse(e) {
-				this.browse++
+			onLike(index) {
+				this.activityData[index].activityEntity.dianZanCount++
 			},
-			onLike(e) {
-				this.like++
+			onDetail(index) {
+				uni.navigateTo({
+					url: '/pages/activity/activitydetail/activitydetail?query='+encodeURIComponent(JSON.stringify(this.activityData[index]))
+				})
 			},
-			onComment(e) {
-				this.comment++
+			ViewImage(url) {
+				uni.previewImage({
+					urls: [url],
+					current: url
+				});
+			},
+			getDate(e) {
+				uni.request({
+					url: this.ActivityUrl + '/activity/getList',
+					header: {
+						"Authorization" : "Bearer " + getToken()
+					},
+					success: (result) => {
+						if (result.statusCode == 200) {
+							this.activityData = result.data.data.activityVos;
+							console.log('成功：' + JSON.stringify(this.activityData))
+						}
+					}
+				});
 			}
 		}
 	}

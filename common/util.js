@@ -39,14 +39,81 @@ function friendlyDate(timestamp) {
 						diffValue = minutes;
 					} else {
 						diffType = 'second';
-						diffValue = seconds === 0 ? (seconds = 1) : seconds;
+						if (seconds > 0) {
+							diffValue = seconds
+						} else{
+							diffValue = 1
+						}
 					}
 				}
 			}
 		}
 	}
+	if(diffValue === NaN || diffValue === 'NaN') {
+		diffValue = 1
+	}
 	return formats[diffType].replace('%n%', diffValue);
 }
+
+function getDate(str){
+	var date = new Date(str)
+	var y = date.getFullYear(),
+	month = date.getMonth()+1 > 9 ? date.getMonth()+1 : '0' + parseInt(date.getMonth()+1),
+	day = date.getDate() > 9 ? date.getDate() : '0' + date.getDate(),
+	h =  date.getHours() > 9 ? date.getHours() : '0' + date.getHours(),
+	m = date.getMinutes() > 9 ? date.getMinutes() : '0' + date.getMinutes(),
+	s = date.getSeconds() > 9 ? date.getSeconds() : '0' + date.getSeconds();
+	return y + '-' + month + '-' + day;
+}
+
+function getDateTime(str){
+	var date = new Date(str)
+	var y = date.getFullYear(),
+	month = date.getMonth()+1 > 9 ? date.getMonth()+1 : '0' + parseInt(date.getMonth()+1),
+	day = date.getDate() > 9 ? date.getDate() : '0' + date.getDate(),
+	h =  date.getHours() > 9 ? date.getHours() : '0' + date.getHours(),
+	m = date.getMinutes() > 9 ? date.getMinutes() : '0' + date.getMinutes(),
+	s = date.getSeconds() > 9 ? date.getSeconds() : '0' + date.getSeconds();
+	return y + '-' + month + '-' + day + ' ' + h + ':' + m;
+}
+
+function getUserInfo(){
+	var user = {};
+	uni.getStorage({
+		key: "user",
+		success(res) {
+			user = res.data;
+		}
+	});
+	return user;
+}
+
+function setUserInfo(user){
+	uni.setStorage({
+		key: "user",
+		data: user
+	})
+}
+
+function getToken(){
+	var token = '';
+	uni.getStorage({
+		key: "token",
+		success(res) {
+			token = res.data;
+		}
+	});
+	return token;
+}
+
+function getDatetime(str) {
+	return str;
+}
+
 export {
-	friendlyDate
+	friendlyDate,
+	getDate,
+	getUserInfo,
+	getToken,
+	getDatetime
 }
